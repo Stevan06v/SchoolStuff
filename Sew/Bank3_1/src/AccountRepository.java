@@ -1,0 +1,1 @@
+import java.util.*;public class AccountRepository {    private static final AccountRepository instance  = new AccountRepository();    private List<Account> accounts;    private AccountRepository(){}    public static AccountRepository getInstance() {        return instance;    }    public List<Account> getAccounts() {        return accounts;    }}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>AJAX_request.html</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+      <script type="text/javascript">
+
+
+            
+            let input = "";
+
+            function inputchar(cal_input) {
+                  input += cal_input;
+                  console.log(input);
+
+                  document.getElementById('outputDisplay').innerHTML = input;
+            }
+
+            function calculate() {
+                  fetch(`server.php?input=${input}`)
+                        .then(res => {
+                              input='';
+                              return res.text();
+                        })
+                        .then(data => {
+                              document.getElementById('outputDisplay').innerHTML = data
+                              input='';
+                        })
+                        .catch(err => {
+                              console.log(err);
+                              input='';
+                        })
+            }
+
+            function cleardisplay() {
+                  document.getElementById('outputDisplay').innerHTML=''
+                  input='';
+            }
+
+      </script>
+      <style>
+            div.relative {
+                  position: relative;
+                  left: 48px;
+                  top: -230px;
+                  width: 152px;
+                  text-align: right;
+                  font-family: "Lucida Console", Monaco, monospace;
+                  font-size: 15px;
+            }
+      </style>
+</head>
+
+<body>
+      <h1>Taschenrechner mit PHP</h1>
+
+      <img src="Taschenrechner.png" width="239" height="252" border="0" usemap="#map" />
+      <div class="relative" id="outputDisplay">0</div>
+
+      <map name="map">
+            <!-- #$-:Image map file created by GIMP Image Map plug-in -->
+            <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+            <!-- #$-:Please do not edit lines starting with "#$" -->
+            <!-- #$VERSION:2.3 -->
+            <!-- #$AUTHOR:robreder -->
+            <area shape="rect" coords="38,71,68,102" onclick="inputchar(1)" nohref="nohref" />
+            <area shape="rect" coords="83,72,114,102" onclick="inputchar(2)" nohref="nohref" />
+            <area shape="rect" coords="125,72,155,101" onclick="inputchar(3)" nohref="nohref" />
+            <area shape="rect" coords="37,114,66,143" onclick="inputchar(4)" nohref="nohref" />
+            <area shape="rect" coords="84,114,113,144" onclick="inputchar(5)" nohref="nohref" />
+            <area shape="rect" coords="126,114,155,144" onclick="inputchar(6)" nohref="nohref" />
+            <area shape="rect" coords="38,155,68,185" onclick="inputchar(7)" nohref="nohref" />
+            <area shape="rect" coords="84,155,115,182" onclick="inputchar(8)" nohref="nohref" />
+            <area shape="rect" coords="125,154,157,184" onclick="inputchar(9)" nohref="nohref" />
+            <area shape="rect" coords="39,195,68,223" onclick="inputchar(0)" nohref="nohref" />
+            <area shape="rect" coords="81,190,115,224" onclick="calculate()" nohref="nohref" />
+            <area shape="rect" coords="177,193,208,222" onclick="inputchar('+')" nohref="nohref" />
+            <area shape="rect" coords="177,156,206,185" onclick="inputchar('-')" nohref="nohref" />
+            <area shape="rect" coords="177,115,207,144" onclick="inputchar('*')" nohref="nohref" />
+            <area shape="rect" coords="178,73,208,101" onclick="inputchar('/')" nohref="nohref" />
+            <area shape="rect" coords="14,22,34,53" onclick="inputchar('(')" nohref="nohref" />
+            <area shape="rect" coords="206,24,225,53" onclick="inputchar(')')" nohref="nohref" />
+            <area shape="rect" coords="125,190,160,224" onclick="cleardisplay()" alt="c" nohref="nohref" />
+      </map>
+      <div id="errormsg"></div>
+</body>
+
+</html>

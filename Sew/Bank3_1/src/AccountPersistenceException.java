@@ -1,0 +1,1 @@
+public class AccountPersistenceException extends RuntimeException{    public AccountPersistenceException(String msg){        super(msg);    }    public AccountPersistenceException(String msg, Throwable cause){        super(msg, cause);    }}

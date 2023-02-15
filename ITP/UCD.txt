@@ -1,0 +1,12 @@
+powerflow grafic
+	powergeneration grafic 
+power history
+
+
+Datenquelle
+mehr strom dicker 
+
+
+grafana
+
+flexible darstellungsweise von komponenten

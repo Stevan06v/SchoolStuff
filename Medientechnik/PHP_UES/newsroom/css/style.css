@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    overflow: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navGrid {
+    margin-top: 1vw;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+h1 {
+
+    font-size: 1.3rem;
+}
+
+img {
+    width: 20vw;
+}
+
+.boxGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 2vw;
+}
+
+a {
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    transition: color 2s rease;
+
+    
+}
+
+p {
+    width: 20vw;
+    
+}
+
+a:hover {
+    color: rgb(162, 83, 237);
+}

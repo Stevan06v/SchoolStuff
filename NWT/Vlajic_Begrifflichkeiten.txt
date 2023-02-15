@@ -1,0 +1,4 @@
+Multicast
+RFC 1918
+classless
+PAT (Port Adress Translation)

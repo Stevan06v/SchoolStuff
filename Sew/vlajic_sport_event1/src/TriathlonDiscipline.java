@@ -1,0 +1,1 @@
+public enum TriathlonDiscipline {    SWIM, BIKE, RUN}

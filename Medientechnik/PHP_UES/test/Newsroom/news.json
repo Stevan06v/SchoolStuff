@@ -1,0 +1,49 @@
+{
+    "sport":[
+        {
+            "name":"Football WM",
+            "text":"ok",
+            "description":"jhjhhjklj"
+        },
+        {
+            "name":"Football WM",
+            "text":"ok",
+            "description":"jhjhhjklj"
+        }
+
+
+    ],
+    "tech":[
+        {
+            "name":"TECH",
+            "text":"ok",
+            "description":"jhjhhjklj"
+        }
+
+    ],
+    "science":[
+        {
+            "name":"Football WM",
+            "text":"ok",
+            "description":"jhjhhjklj"
+        }
+
+    ],
+    "school":[
+        {
+            "name":"Football WM",
+            "text":"ok",
+            "description":"jhjhhjklj"
+        }
+
+    ],
+    "home":[
+        {
+            "name":"Football WM",
+            "text":"ok",
+            "description":"jhjhhjklj"
+        }
+
+    ]
+
+}
