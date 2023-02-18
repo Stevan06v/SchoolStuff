@@ -1,0 +1,147 @@
+==================================
+         VLAN UEBUNGEN
+==================================
+Name: Stevan Vlajic 
+Klasse: 3AHITM 
+UEBUNG: VLAN
+
+----------------------------------
+VLAN UEBUNG 1) Doku
+----------------------------------
+Material:
+------------
+2 Switches
+8 PC's
+1 Router 
+
+Switch 1:
+------------
+
+VLAN-DATABASE:
+------------
+VLANno 2: VLAN2
+VLANno 3: VLAN3
+
+
+PC1: 172.16.0.2
+Subnet: 255.255.0.0
+Gateway: 172.16.0.0
+
+PC2: 172.16.0.3
+Subnet: 255.255.0.0
+Gateway: 172.16.0.0
+
+PC3: 172.17.0.2
+Subnet: 255.255.0.0
+Gateway: 172.17.0.0
+
+PC4: 172.17.0.3
+Subnet: 255.255.0.0
+Gateway: 172.17.0.0
+
+---------------------------------
+
+Switch 2:
+------------
+
+VLAN-DATABASE:
+------------
+VLANno 2: VLAN2
+VLANno 3: VLAN3
+
+
+PC1: 172.16.0.4
+Subnet: 255.255.0.0
+Gateway: 172.16.0.0
+
+PC2: 172.16.0.5
+Subnet: 255.255.0.0
+Gateway: 172.16.0.0
+
+PC3: 172.17.0.4
+Subnet: 255.255.0.0
+Gateway: 172.17.0.0
+
+PC4: 172.17.0.5
+Subnet: 255.255.0.0
+Gateway: 172.17.0.0
+
+Router:
+------------
+FastEthernet(0/0): 172.16.0.1
+FastEthernet(1/0): 172.17.0.1
+
+
+----------------------------------
+VLAN UEBUNG 2) Doku
+----------------------------------
+Material:
+------------
+2 Switches
+7 PC's
+1 DNS-SERVER
+1 Router 
+
+
+Switch 1:
+------------
+
+VLAN-DATABASE:
+------------
+VLANno 2: VLAN2
+VLANno 3: VLAN3
+
+
+PC1: DHCP
+Subnet: 255.255.0.0
+Gateway: 172.16.0.0
+
+PC2: DHCP
+Subnet: 255.255.0.0
+Gateway: 172.16.0.0
+
+PC3: DHCP
+Subnet: 255.255.0.0
+Gateway: 172.17.0.0
+
+-------------------------
+DHCP-Server: 172.16.0.5
+Subnet: 255.255.0.0
+Gateway: 172.16.0.1
+
+services -> dhcp -> 
+netz-17: 
+------------
+Gateway: 172.17.0.1
+DNS: 0.0.0.0
+Subnet: 255.255.0.0
+
+
+services -> dhcp -> 
+netz-16: 
+------------
+Gateway: 172.16.0.1
+DNS: 0.0.0.0
+Subnet: 255.255.0.0
+
+---------------------------------
+
+Switch 2:
+------------
+
+VLAN-DATABASE:
+------------
+VLANno 2: VLAN2
+VLANno 3: VLAN3
+
+PC1: DHCP
+Subnet: 255.255.0.0
+Gateway: 172.16.0.0
+
+PC2: DHCP
+Subnet: 255.255.0.0
+Gateway: 172.16.0.0
+
+PC3: DHCP
+Subnet: 255.255.0.0
+Gateway: 172.17.0.0
