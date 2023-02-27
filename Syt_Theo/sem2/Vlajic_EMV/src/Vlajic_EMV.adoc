@@ -20,19 +20,22 @@ Unter dem Begriff EMV versteht man die elektromagnetische Verträglichkeit. Dies
 Die Störungen beginnen im gesamten Elektromagentischen Frequenzbereich bei 16 2/3 Hz und gehen bis zu mehreren GHz hoch.
 
 * Störquellen
-** Elektrostatische Entladung
+** Mittelwellen (1,4MHz)
+** Kurzwellen (6MHz - 10MHz)
+** UKW (88MHz - 108MHz)
 ** Blitze
-** Schaltvorgänge im Netz
+** Mobilfunk(Basisstation D-Netz): (890MHz - 960MHz)
+** Mikrowelle (2.45GHz)
+
+
 
 * Störungstypen (Frequenzbereiche)
 ** < 10MHz -> leitungsgebundene Störungen
 ** > 10MHz -> abgestrahlt von einer Quelle
 
+
+
 \n
-
-
-
-
 
 === Fassen Sie die verschiedenen Übertragungswege und Kopplungen zusammen
 
@@ -45,13 +48,13 @@ Die Störungen beginnen im gesamten Elektromagentischen Frequenzbereich bei 16 2
 ** Strahlungsgebundene Beeinflussungen
 ** Leitungsgebundene Beeinflussungen
 
-unterteilen.
+unterteilt.
 
 * Kapazitive Kopplung
 ** Das Wechselfeld zwischen parallel laufenden Leitungen überträgt Störungen von Leitung zu Leitung
 
-* Kapazitive Kopplung
-** Das Wechselfeld zwischen parallel laufenden Leitungen überträgt Störungen von Leitung zu Leitung
+* Galvanische Kopplung
+** Der Strom verursacht am gemeinsamen Leitungswiderstand einen Spannungsabfall der die Messung beeinflusst
 
 * Induktive Kopplung
 ** Das magnetische Wechselfeld induziert in nahen Schleifen störende Spannungen.
@@ -65,3 +68,13 @@ Bei der Kapazitiven Kopplung wird ein Strom über eine Leiterkapazität getriebe
 Bei der Induktiven Kopplung führt der Strom mit seinem Fluss in der Messschleife des Pt100 eine Spannung herbei dadurch wird die Messung verfälscht.
 
 === Geben Sie einige Anregungen zur Vermeidung von EMV-Problemen und erklären Sie den Unterschied zwischen Schutzerdung und Funktionserdung
+
+
+* Vermeidung von EMV-Problemen(zu vermeiden):
+** große Schleifen
+** verdrillte und geschmierte Leitungen
+** Schirme großflächige mit Masse verbinden
+
+Die Schutzerdung dient zum von Tieren und Personen gegen elektrische Schläge.
+
+Die Funktionserdung dient einem HF-gerechten Betrieb.
