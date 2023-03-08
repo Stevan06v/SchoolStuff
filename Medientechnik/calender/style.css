@@ -17,3 +17,7 @@ table {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.kal_aktueller_tag{
+    border:5px solid red ;
+}
