@@ -48,12 +48,9 @@ class MyClock extends HTMLElement {
     constructor() {
         let self = super();
         console.log(self);
-
         // SHADOW DOM
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.appendChild(myClockTemplate.content.cloneNode(true));
-
-
     }
 
     static get observedAttributes() {
@@ -63,12 +60,9 @@ class MyClock extends HTMLElement {
     // customize template with attributes
     attributeChangedCallback(attrName, oldValue, newValue) {
         console.log(attrName);
-
         if (attrName == 'city-name') {
             this.shadowRoot.getElementById('city').innerHTML = newValue
         }
-
-       
             if (attrName == 'time-zone') {
                 if (newValue != null) {
                     setInterval(() => {
@@ -80,11 +74,7 @@ class MyClock extends HTMLElement {
                     }, 1000);
                 }
             }
-       
-        
     }
-
-
     showTime(tmz) {
         /*  this.generateBackground() */
         let self = this;
