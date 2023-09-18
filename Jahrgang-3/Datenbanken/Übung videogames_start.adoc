@@ -1,0 +1,146 @@
+# Übung Videogames
+:author: G. Aistleitner
+
+.Lernziele:
+* Joins von mehreren Tabellen
+* Gruppierungen
+* Einsatz von Aggregatfunktionen
+* Maximumsermittlungen
+
+
+## Konfiguration / Initialisierung
+
+Schema: DEMO_VIDEOGAMES
+
+.Optionaler Schemawechsel:
+[source,sql]
+----
+alter session set current_schema = demo_videogames;
+----
+
+ERD: https://student.cloud.htl-leonding.ac.at/oracle/dbman/assets/images/erd/videogames_erd.png
+
+Alle Aufgaben sind jeweils mit EINEM SQL-Statement zu lösen!
+
+
+
+## a) Publisher von Game "SimCity 2000"
+
+Ermitteln Sie alle Publisher, die das Spiel **SimCity 2000** vermarktet haben.
+
+.Ergebnis:
+```
+GAME_NAME       PUBLISHER_NAME
+--------------- -------------------------
+SimCity 2000    Maxis
+SimCity 2000    THQ
+SimCity 2000    Sega
+SimCity 2000    Zoo Digital Publishing
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+
+## b) Plattformen von "SimCity 2000"
+
+Ermitteln Sie, auf welchen Plattformen das Spiel **SimCity 2000** von welchem Herausgeber verkauft wurde.
+
+.Ergebnis:
+```
+PLATFORM_NAME PUBLISHER_NAME
+------------- -------------------------
+PS            Maxis
+PC            Maxis
+SAT           Sega
+SNES          THQ
+GBA           Zoo Digital Publishing
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+
+## c) Verkaufszahlen nach Region
+
+In welchen Region wurden wie viele Gesamtverkäufe durchgeführt? +
+Sortieren Sie das Ergebnis absteigend nach der Anzahl.
+
+
+.Ergebnis:
+```
+REGION_NAME     Verkäufe
+------------- ----------
+North America     375828
+Europe            214371
+Japan             114784
+Other              72782
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+
+
+## d) Beliebteste Plattform je Region
+
+Ermitteln Sie für jede Region die Plattform, für die am meisten Spiele verkauft wurden. +
+Sortieren Sie das Ergebnis aufsteigend nach der Region.
+
+
+.Ergebnis:
+```
+REGION_NAME   PLATFORM_NAME   Verkäufe
+------------- ------------- ----------
+Europe        PS3                31364
+Japan         DS                 16107
+North America X360               53841
+Other         PS2                16874
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+
+
+## e) Beste Plattform pro Genre
+
+Ermitteln Sie, welche Plattform pro Genre am meisten Verkäufe erzielt hat.
+
+.Ergebnis:
+```
+GENRE_NAME    PLATFORM_NAME   Verkäufe
+------------- ------------- ----------
+Action        PS3                28083
+Shooter       X360               25968
+Sports        PS2                24602
+Misc          Wii                18239
+Racing        PS2                14398
+Role-Playing  DS                 12325
+Simulation    DS                 11021
+Fighting      PS2                 8344
+Puzzle        DS                  7904
+Platform      GBA                 7025
+Adventure     DS                  4311
+Strategy      PC                  4114
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+

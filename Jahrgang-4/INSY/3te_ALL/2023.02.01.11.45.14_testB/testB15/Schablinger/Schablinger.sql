@@ -1,0 +1,16 @@
+-- 1.1
+SELECT COUNT(SPARTE) as ANZAHL, SPARTE from VERTRAG WHERE VENDE is null
+group by SPARTE;
+-- 1.2
+SELECT VNR, VSUMME from VERTRAGSHISTORIE WHERE to_date('03.06.2000', 'dd.mm.YYYY') - DATUM_VON = (SELECT MIN(to_date('03.06.2000', 'dd.mm.YYYY') - DATUM_VON) from VERTRAGSHISTORIE WHERE vnr = 154);
+-- 1.3
+SELECT vnr, to_char(VBEGINN, 'dd.mm.YYYY') from VERTRAG WHERE to_char(VBEGINN, 'yy') = '97' and VBEGINN > to_date('30.09.1997', 'dd.mm.yyyy');
+-- 1.4
+SELECT vnr from VERTRAG where SPARTE = 'P'
+MINUS
+SELECT vnr from VERTRAGSHISTORIE where DATUM_VON > to_date('31.12.02', 'dd.mm.YYYY') = null;
+-- 1.5
+SELECT vnr, SPARTE, VBEGINN, VENDE from VERTRAGSHISTORIE, VERTRAG;
+-- 1.6
+SELECT vnr, VSUMME from VERTRAGSHISTORIE where sysdate-DATUM_VON = (SELECT MIN(sysdate-DATUM_VON) from VERTRAGSHISTORIE)
+group by VSUMME, vnr;
