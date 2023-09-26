@@ -1,0 +1,96 @@
+= Mitschrift 25-09-2023
+Stevan Vlajic
+1.0.0, {docdate}:
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+:experimental:
+
+
+== Rechtsordnung
+
+* Bundesgetzt 
+** Gelten für ganz Österreich 
+* Landesgesetz
+** Gilt für einzelne Bundesländer
+
+Nationalrat -> beschließt Gesetze
+
+Bundesrat -> Kontrollinstanz 
+
+== Gewalten Österreichs
+* Excekutive
+** Polizei
+
+* Judikative 
+** richterliche Gewalten
+
+* Legislative
+** Gesetztgebende
+
+
+== EU Rechte
+
+Die EU gibt: 
+
+* Richtlinien -> Minimum von Beschluss muss umgestezt werden -> alles andere kann selbst beschlossen werden 
+
+* Verordnungen -> DSGVO 
+
+vor.
+
+EU Regelungen stehen über unserem nationalem Recht 
+
+== Verfassungsgesetze 
+* Brauchen eine Mehrheit in der Zustimmung bei der Beschließung und Aufhebung
+
+== Einfache Gesetze
+* Beispiel:
+** Niemanden umbrigen
+** Niemanden verletzten
+** Führerscheingesetz
+
+* steht im ABGB -> Allgemeines bürgerliches Gesetzbuch
+* seit 1812 
+
+== Verordnungen 
+* Beispiele:
+** Covid-Verordnung
+
+== Einzelfall Entscheidungen
+* Persöhnliche Urteile, Bescheide, Beschlüsse
+
+
+Alle Punkte müssen sich den oberen unterwerfen aber nichts darf umgedreht werden.
+
+
+== Öffentliches und Privates Recht
+
+* Öffentliches Recht -> Staat auf einer Seite, Bürger auf der anderen Seite
+
+* Privates Recht -> Bürger gegen Bürger
+
+== Zwingendes Recht und Nachgibiges Recht
+
+* Zwingendes Recht:
+** unabänderlich
+** Beispiel: 
+*** Unternehmensrecht
+*** Mutterschutz 
+
+* Nachgibiges Recht 
+** Abänderbares Recht 
+
+
+== Fälle bestehen aus:
+
+* Sachverhalt: was ist passiert 
+** Zeugenaussagen
+
+* Gesetzen:
+** Für Normen zuständig -> subsumieren
+
+== Wie kommt man auf seine Rehcte
+https://www.ris.bka.gv.at/
