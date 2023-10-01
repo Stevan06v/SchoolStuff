@@ -1,0 +1,47 @@
+= Kreativitätstechniken Übung
+Stevan Vlajic
+1.0.0, {docdate}:
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+:experimental:
+
+
+== Aufgabenstellung
+
+=== Kreativitätstechniken
+
+Du bist Produktmanager für eine App namens DesignMasters. Das Unternehmen ist bekannt für seine Software-Lösungen im Bereich Mode- und Textildesign. Diese App hilft Designern dabei, die besten Materialien, Farbkombinationen und Muster für ihre Entwürfe zu wählen. Während eines Meetings mit der Geschäftsführung erfährst du, dass das Unternehmen in den Bereich des Schmuckdesigns expandieren möcht
+e. Da der Schmuckdesign-Bereich dem Mode-Design nahe steht, wirst du und dein Team gebeten, ein erstes Konzept für den Einstieg in den Schmuckdesign-Bereich zu entwickeln.
+Es sollte zumindest einige Ideen für eine neu zu entwickelnde Schmuckdesign-App enthalten. Darüber hinaus sollten die Chancen und Risiken für das Unternehmen diskutiert werden.
+
+=== Mögliche Fragen
+
+* *Liste Kreativitätstechniken, die du kennst.*
+
+** 6-3-5 Methode -> Brainwritting
+** Morphologischer Kasten
+** Mindmapping
+** Bionik
+** Die Delphi Methode
+
+* *Welche würdest du für dieses Problem verwenden?*
+
+** *Der Morphologische* Kasten wäre in dem Fall der beste Weg Ideen für die Schmuckdesign-App zu finden,
+da man sich mithilfe des morphologischen Kastens ziemlich Schnell und strukturiert die Teilbereiche und Ausprägungen des Projekts herleiten kann.
+** *Mindmapping* wäre insofern gut, da man hierbei auch wie beim morphologischen Kasten eine strukturierte Ideenfindung geboten bekommt. Man bildet das Hauptthema, in diesem Fall wäre das die Schmuckdesign-App, dazu überlegt man sich zusammenhängende Unterpunkte, welche letztendlich strukturiert abrufbar sind.
+** *Brainwritting* wäre gut, um schnell die Ideen von anderen Teammitgliedern zu sammeln (Wie denkt das Team über die Ideen?). Nach 30 min also einer "Brainwritting-Session" hätte man dann insgesamt 108 Ideen für die Schmuckdesign-App gesammelt
+
+
+* *Erörtere, wie man die besten Ideen daraus filtern kann. Wer könnte dir in diesem Prozess Unterstützung bieten?*
+** Um die Ideen zu filtern lässt sich eine sogenannte SWOT-Analyse(Strengths, Weaknesses, Opportunities, Threats) durchführen. Anhand dieser lässt sich dann analysieren, ob gewisse Ideen überhaupt für das Projekt in Frage kämen. (Hat das Team die nötigen Kompetenzen, Kann das Team gewisse Features implementieren...)
+** Durch die Variantenbildung werden die Ideen gefiltert. Entscheidet man sich für eine Variante, werden wahrscheinlich nur gewisse Ideen weiterführend in Anspruch genommen.
+** Einige angestellte Designer wären bei diesem Prozess hilfreich, da diese die App in anspruch nehmen werden und somit wissen, was welche Ideen sinnvoll unc welche nicht so sinnvoll für gewisse Use-Cases der App sind.
+
+
+
+* *Dieser Aufgabenansatz ändert den Kontext von Fotografie und Video zu Mode- und Schmuckdesign,
+behält aber den Kern der ursprünglichen Frage bei,
+nämlich den Übergang von einem etablierten Bereich zu einem neuen Bereich und die kreativen Überlegungen,
+die dabei eine Rolle spielen.*
