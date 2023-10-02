@@ -1,0 +1,81 @@
+# Übungen Subqueries
+
+## Konfiguration
+
+Schema: DEMO_HR +
+ERD: https://student.cloud.htl-leonding.ac.at/oracle/dbman/assets/images/erd/hr_schema.pdf[Link] +
+Wechsel des Schemas:
+
+[source,sql]
+----
+alter session set current_schema=DEMO_HR
+----
+
+Alle Aufgaben sind jeweils mit EINEM SQL-Statement zu lösen!
+
+## Alle Mitarbeits einer Führungskraft
+
+Ermitteln Sie alle Mitarbeiter, die John Russell direkt unterstellt sind.
+
+`Ergebnis: 150 - 155`
+
+[source,sql]
+----
+
+----
+
+## Neuester Mitarbeiter
+
+a) Ermittlen Sie den bzw. die neuesten Mitarbeiter des Unternehmens
+
+`Ergebnis: 167, 173`
+
+[source,sql]
+----
+
+----
+
+b) Ermitteln Sie den neuesten Mitarbeiter aller Abteilungen, deren Bezeichnungen mit `IT` beginnen.
+
+`Ergebnis: 104`
+
+[source,sql]
+----
+
+----
+
+## Departments
+
+Ermitteln Sie alle Departments, die im Country 'Germany' angesiedelt sind.
+
+`Ergebnis: 70 - Public Relations`
+
+[source,sql]
+----
+
+----
+
+
+## Mitarbeiter mit Job-Wechsel?
+
+Prüfen Sie, welche Mitarbeiter bereits den Job im Unternehmen gewechselt hat. +
+Für jeden Job-Wechsel wird ein Eintrag in der Tabelle `JOB_HISTORY` angelegt.
+
+`Ergebnis: 101, 102, 114, 122, 176, 200, 201`
+
+[source,sql]
+----
+
+----
+
+
+## Mitarbeiter-Anzahl / Region
+
+Ermitteln Sie die Anzahl an Mitarbeiter, die in der Region mit dem Namen `Americas` beschäftigt sind.
+
+`Ergebnis: 70`
+
+[source,sql]
+----
+
+----
