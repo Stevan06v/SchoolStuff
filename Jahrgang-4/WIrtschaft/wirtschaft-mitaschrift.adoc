@@ -18,3 +18,7 @@ Stevan Vlajic
 image:./img/Wirstschaft-Einführungen.png[]
 
 == 26-09-2023
+image:./img/2023-09-27.png[]
+
+== 03-10-2023
+image:./img/2023-03-10.png[]
