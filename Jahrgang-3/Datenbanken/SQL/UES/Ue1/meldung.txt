@@ -1,1 +1,0 @@
-ORA-01438: Wert größer als die angegebene Gesamtstellenzahl, die für diese Spalte zulässig ist

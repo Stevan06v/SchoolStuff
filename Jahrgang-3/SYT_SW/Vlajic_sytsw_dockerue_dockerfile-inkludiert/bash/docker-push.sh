@@ -1,1 +1,0 @@
-docker push stevan6/docker-themesite:latest

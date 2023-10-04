@@ -1,2 +1,0 @@
-docker build -t hello-world .
-docker run --name hello-world hello-world:latest

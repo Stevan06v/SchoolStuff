@@ -1,3 +1,0 @@
-f'(x) = 0 suchen 
-Ableitung geht durch diese punkte immer durch 
-fertig 

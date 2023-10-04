@@ -1,1 +1,0 @@
-public class FacilityManagementException extends RuntimeException{    public static final String IO_EXCEPTION_MESSAGE = "error";    public static final String ZIP_CODE_NOT_FOUND_MESSAGE = "error";    public FacilityManagementException(String msg){        super(msg);    }    public FacilityManagementException(String msg, Throwable cause){        super(msg, cause);    }}
