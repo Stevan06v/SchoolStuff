@@ -1,0 +1,34 @@
+V Modell -Langkarte
+--------------------
+
+speciftication 
+	technische beschreibung
+
+WAS?
+=======
+Ausgangssituation
+Ist
+Soll
+
+WIE?
+========
+Design 
+Grobentwurf
+	Grobentwurf wird gemacht um Schnittstellen zwischen Komponenten zu definieren
+	Bsp: Datenbank, Backend, Front-End, Schnittstellen werden defieniert
+	Schnittstellen: verschiedene Teile funktionieren gemeinsam für die Collaboration. 
+	Es kann gemockt werden: Einer Datenbank werden Daten vorgetäuscht <-- Daten vortäuschen
+
+Feinentwurf:
+	Komponenten hängen zusammen haben schnittstellen
+	Probleme in Komtonenten Unterteilen --> Klassen
+	in den einzelenen Bereichen CLD's und ERD's machen 
+Implementierung:
+	Umsetzten(programmieren) --> Ergebnis Codeartefakte
+
+Striche sind nicht umsonst
+
+Modultest
+	Methoden einer Klasse werden getestet
+	Units also die Module werden getestet
+	AssertJ --> Matcher 

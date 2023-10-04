@@ -1,0 +1,81 @@
+= SCRUM
+Stevan Vlajic
+1.0.0, {docdate}: MySQL & Maria-DB
+//:toc-placement!: // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:  // Nummerierung der Überschriften / section numbering
+:toc: left
+//toc::[]
+
+
+== Scrum
+Bürokratische Wege werden verhindert
+
+Haufen -> Agiles Vorgehensmodell
+
+* strukturierten und standardisierten Ablauf während der gesamtem Projektlaufzeit
+
+== Aktivitäten
+* Ermittlung
+
+== Sprint
+* Wann bekomme ich es
+
+== Product-backlog
+* sachliche Komponente
+* Was bekomme ich
+
+== Arten von Vorgehensmodellen
+iterative Prozesse
+* Programm wird in kleinen blocken erhöht
+* Funktionalität wird in kleinen Schritten erhöht
+
+== Wasserfallmodell
+Requirements vom ganzen Projekt
+riesiges Projekt wird auf einmal ausgerollt -> big bang
+
+== Agile Prozessmodell
+Lauffähigkeit der einzelnen Quadrate
+
+Kleine Funktionalität kommen immer wieder hinzu und Kunde bekommt diese zu Gesicht
+
+Nach jedem Sprint kommt eine Funktionalität hinzu
+
+== User Story
+As who, I want what so that why.
+Alles was einem hilft Geld zu verdienen -> Business-value.
+
+Business value: Hilft dem Kunden bei seinem Problem (Durchführung bei seinem Geschäft).
+
+== Rollen
+
+Rollen
+2 Verkäufer dürfen auf einige Tabellen zugreifen
+
+Die Verkäufer kriege die Rolle Verkäufer und der Verkäufer darf dies und das machen...
+
+
+Product-Owner: Fachlich Verantwortlich
+
+Scrum Master: Software, Rechner, Sitzgelegenheit
+
+Teamgröße: (8 Programmierer in einem Team)
+
+Users: Benutzer von der Software
+
+Stakeholder: Betroffene vom Projekt
+
+== Design der User-stories
+Tasks
+
+* Epic
+** a large user story which is too big to fit into a sprint
+
+== Burndown chart
+Story-point = Tage wie lange es dauert
+
+Tage werden zusammengezählt = Gesamtaufwand
+
+Mit dem Burndownchart schätzt man ab wie weit der Fortschritt ist.
+

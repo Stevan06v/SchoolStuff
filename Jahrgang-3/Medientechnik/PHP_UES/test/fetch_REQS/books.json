@@ -1,0 +1,26 @@
+{
+    "library": [
+        {
+            "isbn": "978-3-551-35401-3",
+            "title": "Harry Potter und der Stein der Weisen",
+            "author": "J.K. Rowling",
+            "cover": "https://github.com/booksapi/v2.0/img/harrypotter1.jpg",
+            "year": 2005
+        },
+        {
+            "isbn": "978-3-551-35402-0",
+            "title": "Harry Potter und die Kammer des Schreckens",
+            "author": "J.K. Rowling",
+            "cover": "https://github.com/booksapi/v2.0/img/harrypotter3.jpg",
+            "year": 2006
+        },
+        {
+            "isbn": "978-3-551-35403-7",
+            "title": "Harry Potter und der Gefangene von Askaban",
+            "author": "J.K. Rowling",
+            "cover": "https://github.com/booksapi/v2.0/img/harrypotter3.jpg",
+            "year": 2007
+        }
+    ]
+}
+

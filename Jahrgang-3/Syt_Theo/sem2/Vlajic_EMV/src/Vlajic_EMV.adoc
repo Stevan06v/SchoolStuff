@@ -1,0 +1,80 @@
+= Elektromagnetische Verträglichkeit
+Stevan Vlajic
+1.0.0, {docdate}: Softwareentwicklung
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+:experimental:
+
+
+== Fragen
+=== Erklären Sie, was man unter EMV versteht
+
+Unter dem Begriff EMV versteht man die elektromagnetische Verträglichkeit. Diese bezeichnet die Fähigkeit eines elektrischen Systems in dessen elektromagnetischer Umgebung Fehlerfrei zu funktionieren. Hierbei wird auf die maximale Störaussendung und Störfestigkeit von Geräten geachtet.
+
+
+=== Geben Sie Beispiele für Störquellen und deren Frequenzbereich an
+
+Die Störungen beginnen im gesamten Elektromagentischen Frequenzbereich bei 16 2/3 Hz und gehen bis zu mehreren GHz hoch.
+
+* Störquellen
+** Mittelwellen (1,4MHz)
+** Kurzwellen (6MHz - 10MHz)
+** UKW (88MHz - 108MHz)
+** Blitze
+** Mobilfunk(Basisstation D-Netz): (890MHz - 960MHz)
+** Mikrowelle (2.45GHz)
+
+
+
+* Störungstypen (Frequenzbereiche)
+** < 10MHz -> leitungsgebundene Störungen
+** > 10MHz -> abgestrahlt von einer Quelle
+
+
+
+\n
+
+=== Fassen Sie die verschiedenen Übertragungswege und Kopplungen zusammen
+
+* Interne Störungen
+** Kontakt- und Thermospannungen
+** Rauschen
+** Bildung galvanischer Wellen
+
+* Externe Störungen werden nach dem Übertragungsweg in:
+** Strahlungsgebundene Beeinflussungen
+** Leitungsgebundene Beeinflussungen
+
+unterteilt.
+
+* Kapazitive Kopplung
+** Das Wechselfeld zwischen parallel laufenden Leitungen überträgt Störungen von Leitung zu Leitung
+
+* Galvanische Kopplung
+** Der Strom verursacht am gemeinsamen Leitungswiderstand einen Spannungsabfall der die Messung beeinflusst
+
+* Induktive Kopplung
+** Das magnetische Wechselfeld induziert in nahen Schleifen störende Spannungen.
+
+=== Erklären Sie das Prinzip der induktiven und kapazitiven Kopplung
+
+*Kapazitive Kopplung:*
+Bei der Kapazitiven Kopplung wird ein Strom über eine Leiterkapazität getrieben. Der Strom verursacht einen Spannungsabfall. Dieser Abfall sorgt wiederum dafür das die Messung über den Messumformer gestört wird.
+
+*Induktive Kopplung:*
+Bei der Induktiven Kopplung führt der Strom mit seinem Fluss in der Messschleife des Pt100 eine Spannung herbei dadurch wird die Messung verfälscht.
+
+=== Geben Sie einige Anregungen zur Vermeidung von EMV-Problemen und erklären Sie den Unterschied zwischen Schutzerdung und Funktionserdung
+
+
+* Vermeidung von EMV-Problemen(zu vermeiden):
+** große Schleifen
+** verdrillte und geschmierte Leitungen
+** Schirme großflächige mit Masse verbinden
+
+Die Schutzerdung dient zum von Tieren und Personen gegen elektrische Schläge.
+
+Die Funktionserdung dient einem HF-gerechten Betrieb.

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.canvas.Canvas?>
+
+
+<?import java.net.URL?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.vlajiccurrencycalculator.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+
+
+
+    <Text text="Currency Controller" styleClass="head"></Text>
+
+    <HBox alignment="CENTER">
+        <Label text="Amount to convert: " alignment="BASELINE_LEFT"></Label>
+        <TextField fx:id="currentValue" alignment="BASELINE_LEFT"></TextField>
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Label text="Converted Amount: " alignment="BASELINE_LEFT"></Label>
+        <TextField fx:id="convertedValue" alignment="BASELINE_LEFT"></TextField>
+    </HBox>
+
+        <HBox alignment="CENTER">
+            <Label text="Desired Conversion: " alignment="BASELINE_LEFT"></Label>
+            <ComboBox fx:id="currencies" onAction="#changeCurrency"></ComboBox>
+        </HBox>
+
+        <HBox alignment="CENTER">
+            <Button onAction="#resetValue" text="reset"></Button>
+
+            <Button onAction="#sendValue" text="convert" ></Button>
+        </HBox>
+
+
+    <Text text="Trend" styleClass="head"></Text>
+
+    <Canvas fx:id="canvasBox" styleClass="canvasBox"></Canvas>
+</VBox>

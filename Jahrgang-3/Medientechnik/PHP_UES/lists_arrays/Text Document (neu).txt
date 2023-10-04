@@ -1,0 +1,16 @@
+<?php
+    $colors = array("red", "green", "yellow", "blue");
+
+    $colors[8] = "purple";
+
+
+    //key valuepaare
+    $age = array("Peter"=>"35", "Joe" => "35", "Peter" => "35" );
+    
+    //peter wird kit 35 überschrieben
+    $age['Peter'] = "32";
+
+    
+
+
+?>

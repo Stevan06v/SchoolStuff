@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95afa4aa-508f-462b-b2cb-def0f2b6c641" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Datenbanken/SQL/.~lock.ScriptSQL.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/linz_night_run.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/linz_night_run.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/linz_tria_complete.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/linz_tria_complete.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/linz_tria_complete_with_dupes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/linz_tria_complete_with_dupes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vlajic_sport_event1/Athlete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vlajic_sport_event1/Athlete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vlajic_sport_event1/AthleteFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vlajic_sport_event1/AthleteFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vlajic_sport_event1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vlajic_sport_event1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vlajic_sport_event1/SportsEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vlajic_sport_event1/SportsEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vlajic_sport_event1/Triathlete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vlajic_sport_event1/Triathlete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/vlajic_sport_event1/AthleteFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/vlajic_sport_event1/AthleteFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/vlajic_sport_event1/SportsEventTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/vlajic_sport_event1/SportsEventTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/vlajic_sport_event1/TriathleteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/vlajic_sport_event1/TriathleteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Athlete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Athlete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AthleteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AthleteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SportsEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SportsEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triathlete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triathlete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SportsEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SportsEventTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IVj1FROQD5wi6KgDUreN42nRob" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/stevano6v/work/SchooolStuff/Sew/vlajic_sport_event1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SportsEventTest">
+    <configuration name="SportsEventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vlajic_sport_event1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SportsEventTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportsEventTest.testAddAthlete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vlajic_sport_event1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SportsEventTest" />
+      <option name="METHOD_NAME" value="testAddAthlete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportsEventTest.testAddDuplicateAthlete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vlajic_sport_event1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SportsEventTest" />
+      <option name="METHOD_NAME" value="testAddDuplicateAthlete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportsEventTest.testGetByRaceNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vlajic_sport_event1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SportsEventTest" />
+      <option name="METHOD_NAME" value="testGetByRaceNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportsEventTest.testReadFromFileWithDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vlajic_sport_event1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SportsEventTest" />
+      <option name="METHOD_NAME" value="testReadFromFileWithDuplicates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SportsEventTest" />
+        <item itemvalue="JUnit.SportsEventTest.testAddDuplicateAthlete" />
+        <item itemvalue="JUnit.SportsEventTest.testAddAthlete" />
+        <item itemvalue="JUnit.SportsEventTest.testReadFromFileWithDuplicates" />
+        <item itemvalue="JUnit.SportsEventTest.testGetByRaceNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95afa4aa-508f-462b-b2cb-def0f2b6c641" name="Changes" comment="" />
+      <created>1670273429505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670273429505</updated>
+    </task>
+    <servers />
+  </component>
+</project>

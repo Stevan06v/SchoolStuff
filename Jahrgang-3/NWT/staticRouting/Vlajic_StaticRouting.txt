@@ -1,0 +1,91 @@
+(PCPT --> öffnen --> Datei) --> sonst versionsproblemerror
+================================
+Static Routing 
+================================
+Netzwerk 1) 192.168.1.0
+
+Router (FastEthernet0/0): 192.168.0.1
+Subnet: 255.255.255.0
+
+Router (FastEthernet0/1): 192.168.1.1
+Subnet: 255.255.255.0
+
+DHCP-Server: 192.168.1.3
+Subnetmask: 255.255.255.0
+
+DNS: 192.168.3.2
+
+Laptop: DHCP
+Tablet: DHCP
+
+Interface --> Static 
+Zielnetwork: 192.168.2.0
+Mask: 255.255.255.0
+Next Hop: 192.168.0.2
+
+Zielnetwork: 192.168.3.0
+Mask: 255.255.255.0
+Next Hop: 192.168.0.3
+
+-------------------------------------
+Netzwerk 2) 192.168.2.0
+
+Router (FastEthernet0/0): 192.168.0.2
+Subnet: 255.255.255.0
+
+Router (FastEthernet0/1): 192.168.2.1
+Subnet: 255.255.255.0
+
+
+Server-PT: 192.168.2.2 
+Subnetmask: 255.255.255.0
+
+DNS: 192.168.3.2
+
+Interface --> Static 
+Zielnetwork: 192.168.3.0
+Mask: 255.255.255.0
+Next Hop: 192.168.0.3
+
+Zielnetwork: 192.168.1.0
+Mask: 255.255.255.0
+Next Hop: 192.168.0.1
+-------------------------------------
+
+Netzwerk 3) 192.168.3.0
+
+Router (FastEthernet0/0): 192.168.0.3
+Subnet: 255.255.255.0
+
+Router (FastEthernet0/1): 192.168.3.1
+Subnet: 255.255.255.0
+
+DNS-Server: 192.168.3.2
+Subnetmask: 255.255.255.0
+
+DNS- Einträge:
+=================
+*dns: 192.168.3.2
+*dhcp: 192.168.1.3
+*pc1: 192.168.2.2
+*server2: 192.168.2.2
+*server3: 192.168.3
+=================
+
+DNS-Server: 192.168.3.2
+
+Interface --> Static 
+Zielnetwork: 192.168.1.0
+Mask: 255.255.255.0
+Next Hop: 192.168.0.1
+
+Zielnetwork: 192.168.2.0
+Mask: 255.255.255.0
+Next Hop: 192.168.0.2
+-------------------------------------
+
+
+
+
+
+
