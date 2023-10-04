@@ -10,6 +10,8 @@ public class Teacher {
     private double rating;
     private String firstname;
     private String lastname;
+    private int id;
+    private int counter;
 
     public Teacher(int age, double is_male, double rating, String firstname, String lastname) {
         this.age = age;
@@ -17,6 +19,7 @@ public class Teacher {
         this.rating = rating;
         this.firstname = firstname;
         this.lastname = lastname;
+        this.id = counter++;
     }
 
     public Teacher() {
@@ -40,6 +43,10 @@ public class Teacher {
 
     public int getAge() {
         return age;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public double getIs_male() {
