@@ -1,0 +1,31 @@
+###
+POST http://localhost:8080/api/teachers
+Content-Type: application/json
+
+{
+  "age": 19,
+  "gender": "MALE",
+  "rating": 9.8,
+  "firstname": "Stevan",
+  "lastname": "Vlajic"
+}
+
+###
+GET http://localhost:8080/api/teachers/list
+Accept: application/json
+
+###
+GET http://localhost:8080/api/teachers/0
+Accept: application/json
+
+###
+GET http://localhost:8080/api/teachers/teacher-count
+
+###
+GET http://localhost:8080/api/teachers/female-teacher-count
+
+###
+GET http://localhost:8080/api/teachers/male-teacher-count
+
+###
+DELETE http://localhost:8080/api/teachers/delete/0
