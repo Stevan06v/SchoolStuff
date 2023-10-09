@@ -2,6 +2,7 @@ package at.htlleonding.demo.boundary;
 
 import at.htlleonding.demo.model.Teacher;
 import at.htlleonding.demo.repository.TeacherRepository;
+import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
@@ -11,7 +12,8 @@ import java.util.ResourceBundle;
 
 @Path("/api/teachers")
 public class TeacherResource {
-    private final TeacherRepository teacherRepository = TeacherRepository.getInstance();
+    @Inject
+    TeacherRepository teacherRepository;
 
     @GET
     @Path("/list")
@@ -23,7 +25,7 @@ public class TeacherResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public Response addTeacher(Teacher teacher){
-        teacherRepository.getInstance().add(teacher);
+        teacherRepository.add(teacher);
         return Response.ok(this.teacherRepository.getTeachers()).build();
     }
 

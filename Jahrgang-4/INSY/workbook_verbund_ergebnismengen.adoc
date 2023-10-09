@@ -1,0 +1,304 @@
+# Übungen Prüfungsverwaltung
+
+## Konfiguration / Initialisierung
+
+Schema: eigenes
+
+.Initialisierung
+[%collapsible]
+====
+[source,sql]
+----
+-- drop table zeugnis;
+-- drop table student;
+-- drop table professor;
+-- drop table lva;
+
+create table student(
+  matrnr number(8) primary key,
+  name varchar2(50) not null,
+  immjahr number(4) not null
+);
+
+create table professor(
+  profnr number(6) primary key,
+  name varchar2(50) not null
+);
+
+create table lva(
+  lvanr number(6) primary key,
+  bezeichnung varchar2(50) not null
+);
+
+
+create table zeugnis(
+  matrnr number(8) references student,
+  lvanr number(6) references lva,
+  note number(1) check(note between 1 and 5),
+  profnr number(6) references professor
+);
+
+
+insert into student values (19526101, 'Maier', 2018);
+insert into student values (19526231, 'Utz', 2017);
+insert into student values (19526143, 'Lehner', 2018);
+insert into student values (19526168, 'Lang', 2018);
+insert into student values (19526199, 'Honeder', 2018);
+insert into student values (19526202, 'Hauer', 2019);
+insert into student values (19526208, 'Muster', 2019);
+insert into student values (19526225, 'Karger', 2019);
+insert into student values (19526239, 'Hufnagl', 2019);
+
+
+insert into professor values (100, 'Mayr');
+insert into professor values (101, 'Denk');
+insert into professor values (102, 'Hase');
+insert into professor values (103, 'Huber');
+insert into professor values (104, 'Hauer');
+insert into professor values (105, 'Auer');
+
+insert into lva values (100101, 'Informatik Grundlagen');
+insert into lva values (100102, 'Bildverarbeitung');
+insert into lva values (100103, 'Datenbanken');
+insert into lva values (100104, 'Künstliche Intelligenz');
+insert into lva values (100105, 'Programmieren Java');
+insert into lva values (100106, 'Netzwerktechnik');
+
+insert into zeugnis values (19526101, 100101, 3, 104);
+insert into zeugnis values (19526168, 100101, 2, 103);
+insert into zeugnis values (19526225, 100102, 5, 104);
+insert into zeugnis values (19526168, 100102, 3, 103);
+insert into zeugnis values (19526231, 100103, 4, 100);
+insert into zeugnis values (19526208, 100103, 5, 100);
+insert into zeugnis values (19526239, 100103, 4, 100);
+insert into zeugnis values (19526199, 100104, 2, 101);
+insert into zeugnis values (19526199, 100106, 1, 102);
+insert into zeugnis values (19526199, 100103, 4, 100);
+insert into zeugnis values (19526143, 100105, 3, 102);
+insert into zeugnis values (19526143, 100102, 5, 104);
+insert into zeugnis values (19526101, 100102, 4, 104);
+
+commit;
+
+----
+====
+
+=== Datenmodell
+
+[plantuml]
+....
+@startuml
+
+Entity Zeugnis {
+  matrnr number(8) <<PK>> <<FK>>
+  lvanr number(6) <<PK>> <<FK>>
+  --
+  note number(1)
+  --
+  profnr number(6) <<FK>>
+}
+
+Entity LVA {
+  lvanr number(6) <<PK>>
+  --
+  bezeichnung varchar2(50) <<not null>>
+}
+
+Entity Professor {
+  profnr number(6) <<PK>>
+  --
+  name varchar2(50) <<not null>>
+}
+
+Entity Student {
+ matrnr number(8) <<PK>>
+ --
+ name varchar2(50) <<not null>>
+ immjahr number(4) <<not null>>
+}
+
+Student ||--o{ Zeugnis
+LVA ||--o{ Zeugnis
+Professor ||--o{ Zeugnis
+
+@enduml
+....
+
+.Glossar
+ImmJahr:: Jahr der Immatrikulation
+LVA:: Lehrveranstaltung
+MatrNr:: MatrikelNr
+
+
+Alle Aufgaben sind jeweils mit EINEM SQL-Statement zu lösen!
+
+
+
+## a) Studenten von Prof. Stütz mit positiver Note
+
+Welche Studenten bekamen von Professor "Stütz" bereits eine positive Note (also besser als 5)? +
+Geben Sie MatrNr, Name und IMMJahr aus!
+
+
+.Ergebnis:
+```
+    MATRNR NAME                    IMMJAHR
+---------- -------------------- ----------
+  19526101 Maier                      2018
+```
+
+.Abfrage:
+[source,sql]
+----
+select distinct z.matrnr, s.name, s.immjahr
+from zeugnis z, student s, PROFESSOR p
+where z.MATRNR = s.MATRNR
+and p.PROFNR = z.PROFNR
+and p.NAME = 'Hauer'
+and z.NOTE < 5;
+----
+
+
+## b) Kombinationsmöglichkeiten
+
+Geben Sie alle Paare (Kombinationsmöglichkeiten!) von Studenten aus, welche dieselbe Lehrveranstaltung besucht haben und diese **positiv** abgeschlossen haben. +
+
+Geben Sie folgende Daten aus: +
+`LVA-Nr, LVA-Bezeichnung, Student A, Student B`
+
+Die Studenten sollen dabei wie folgt ausgegeben werden: +
+`Name (MatrikelNr) -> zB Lang (19526168)`
+
+Sortieren Sie das Ergebnis nach der LVANr, Student A und Student B. +
+Achten Sie darauf, dass die Studentenpaare nicht doppelt aufscheinen!
+
+.Ergebnis
+```
+   LVA-Nr LVA-Bezeichnung            Student A               Student B
+---------- ------------------------- ---------------------- -----------------------
+    100101 Informatik Grundlagen     Maier (19526101)       Lang (19526168)
+    100102 Bildverarbeitung          Maier (19526101)       Lang (19526168)
+    100103 Datenbanken               Honeder (19526199)     Hufnagl (19526239)
+    100103 Datenbanken               Honeder (19526199)     Utz (19526231)
+    100103 Datenbanken               Utz (19526231)         Hufnagl (19526239)
+```
+
+.Abfrage:
+[source,sql]
+----
+select l.lvanr,l.bezeichnung, s.name || ' (' || s.MATRNR || ')' as "Student A",  s2.name || ' (' || s2.MATRNR || ')' as "Student B"
+from lva l, student s, student s2, ZEUGNIS z
+where s.MATRNR = s2.MATRNR
+and s.MATRNR = z.MATRNR
+and s2.MATRNR = s.MATRNR
+and z.NOTE < 5;
+
+
+----
+
+
+
+## c) erfolglose Studenten
+
+Geben Sie alle Studenten aus die noch keine einzige Prüfung positiv
+abgeschlossen haben.
+
+.Ergebnis:
+```
+   MATRNR NAME          IMMJAHR
+---------- ---------- ----------
+  19526208 Muster           2019
+  19526202 Hauer            2019
+  19526225 Karger           2019
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+
+
+
+## d) LVA´s mit Standardnote
+
+Gesucht sind die Bezeichnungen jener Lehrveranstaltungen, deren Durchschnittsnote weniger als einen halben Grad über der besten vergebenen Note liegen. +
+Geben Sie die `Bezeichnung, Durchschnitt` und jeweilige `Bestnote` aus. +
+Sortieren Sie absteigend nach dem Notendurchschnitt.
+
+
+.Ergebnis:
+```
+BEZEICHNUNG             AVG(NOTE)  MIN(NOTE)
+---------------------- ---------- ----------
+Datenbanken                  4,25          4
+Programmieren Java              3          3
+Künstliche Intelligenz          2          2
+Netzwerktechnik                 1          1
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+
+
+
+## e) Professorenstatistik
+
+Geben Sie eine Liste mit den Namen aller Professoren aus. Ergänzen Sie zu den Namen jeweils die Anzahl der durchgeführten Prüfungen und die jeweils vergebene Durchschnittsnote: `Professor, Anzahl Prüfungen, Durchschnittsnote`
+
+Sortieren Sie das Ergebnis nach der Durchschnittsnote und dem Namen.
+
+.Ergebnis:
+```
+Professor  Anzahl Prüfungen Durchschnittsnote
+---------- ---------------- -----------------
+Denk                      1                 2
+Hase                      2                 2
+Huber                     2               2,5
+Hauer                     4              4,25
+Mayr                      4              4,25
+Auer                      0
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+
+
+### f) Personenliste
+
+Erstellen Sie eine Liste mit allen Namen der abgespeicherten Personen. +
+In zwei ergänzenden Spalte soll die Rolle und die Nummer angegeben werden: +
+'P'..Professor, Nr=ProfNr; 'S'..Student, Nr=MatrNr
+
+Sortieren Sie die Liste aufsteigend nach dem Namen!
+
+.Ergebnis (15 Datensätze):
+```
+NAME       Rolle     PROFNR
+---------- ----- ----------
+Auer       P            105
+Denk       P            101
+Hase       P            102
+Hauer      P            104
+Hauer      S       19526202
+Honeder    S       19526199
+Huber      P            103
+...
+```
+
+.Abfrage:
+[source,sql]
+----
+
+----
+
+
