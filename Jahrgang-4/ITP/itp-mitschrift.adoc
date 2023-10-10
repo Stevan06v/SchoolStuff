@@ -67,3 +67,32 @@ jobs:
 * Wo ist die Action zu finden:
 ** Wird der code gepusht wird eine neue Instanz auf GitHub hochgefahren
 ** Beispiel: https://github.com/Stevan06v/java-gh-actions-assignment/actions
+
+
+== 10.10.2023
+
+* https://docs.github.com/de/actions/using-workflows/storing-workflow-data-as-artifacts
+** Artefakte sind Sachen mit denen man baut -> jar-files
+
+
+* Git Tagging:
+** https://calver.org/
+** `git tag -a 241010.01 -m "erste version für release"`
+** `git tag`
+** `git push origin 241010.01`
+** Upload releases to github:
+*** https://github.com/marketplace/actions/upload-to-github-release
+
+
+
+
+
+
+
+
+
+
+
+
+
+
