@@ -187,16 +187,22 @@ Achten Sie darauf, dass die Studentenpaare nicht doppelt aufscheinen!
 [source,sql]
 ----
 select l.lvanr,l.bezeichnung, s.name || ' (' || s.MATRNR || ')' as "Student A",  s2.name || ' (' || s2.MATRNR || ')' as "Student B"
-from lva l, student s, student s2, ZEUGNIS z
-where s.MATRNR = s2.MATRNR
-and s.MATRNR = z.MATRNR
+from lva l,
+     student s,
+     student s2,
+     ZEUGNIS z,
+     ZEUGNIS z2
+where s.MATRNR = z.MATRNR
 and s2.MATRNR = s.MATRNR
-and z.NOTE < 5;
-
+and s2.MATRNR = z2.MATRNR
+and z.NOTE < 5
+and z2.NOTE < 5
+and z.LVANR = l.LVANR
+order by s.NAME,
+         s2.NAME,
+         l.LVANR asc;
 
 ----
-
-
 
 ## c) erfolglose Studenten
 
@@ -214,11 +220,13 @@ abgeschlossen haben.
 
 .Abfrage:
 [source,sql]
-----
 
 ----
-
-
+select s.matrnr, s.name, s.immjahr
+from STUDENT s, ZEUGNIS z
+where z.MATRNR (+) = s.MATRNR
+and 1 > (select count(*) from ZEUGNIS z2 where z2.MATRNR = s.MATRNR and z2.NOTE < 5);
+----
 
 
 ## d) LVA´s mit Standardnote
@@ -241,11 +249,13 @@ Netzwerktechnik                 1          1
 .Abfrage:
 [source,sql]
 ----
-
+select l.bezeichnung as "BEZEICHNUNG", avg(z.note) as "AVG(NOTE)", min(z.note) as "MIN(NOTE)"
+from LVA l, ZEUGNIS z
+where l.LVANR = z.LVANR
+group by l.bezeichnung
+having avg(z.note) - min(z.note) < 0.5
+order by  avg(z.note) desc;
 ----
-
-
-
 
 ## e) Professorenstatistik
 
@@ -268,10 +278,13 @@ Auer                      0
 .Abfrage:
 [source,sql]
 ----
-
+select p.name , count(l.LVANR), avg(z.note)
+from LVA l
+join ZEUGNIS z on (z.LVANR = l.LVANR)
+right join PROFESSOR p on(z.PROFNR = p.PROFNR)
+group by p.name
+order by  avg(z.note) asc;
 ----
-
-
 
 ### f) Personenliste
 
@@ -291,13 +304,16 @@ Hase       P            102
 Hauer      P            104
 Hauer      S       19526202
 Honeder    S       19526199
-Huber      P            103
+Huber      P            103(+)
 ...
 ```
 
 .Abfrage:
 [source,sql]
 ----
+select name, 'P', PROFNR from PROFESSOR
+union
+select name, 'S', MATRNR from STUDENT;
 
 ----
 
