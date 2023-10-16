@@ -7,7 +7,7 @@ drop table verleih cascade constraints;
 drop table vormerk cascade constraints;
 drop table strafe cascade constraints;
 
---creates
+-- creates
 create table buecher(
     buch_nr number(30),
     autor varchar2(30),
@@ -55,31 +55,34 @@ create table strafe(
 select b.buch_nr, b.titel, v.reservFuerDat
 from buecher b, vormerk v 
 where b.buch_nr = v.buch_nr;
---3
+
+-- 3
 select l.leser_nr, l.name, l.wohnort, count(b.buch_nr) as ANAZHLBUECHER
 from leser l, verleih v, buecher b
 where l.leser_nr = v.leser_nr (+)
 and v.buch_nr = b.buch_nr (+)
-group by l.leser_nr, l.name, l.wohnort;
---4 
+group by l.leser_nr, 
+l.name, 
+l.wohnort;
+
+-- 4 
 select l.leser_nr, l.name, l.wohnort, b.titel,v.rueckgabedatum
 from leser l, buecher b, verleih v 
 where l.leser_nr = v.leser_nr 
 and v.buch_nr = b.buch_nr 
 and b.autor like '%Goe%';
 
---5
---nicht geschafft
+-- 5
+-- n icht geschafft
 select b.buch_nr, b.autor, b.titel, b.leihfrist as STATUS 
-from buecher b, vormerk v, verleih vl ; 
+from buecher b, vormerk v, verleih vl; 
 
---6
+-- 6
 select l.leser_nr, l.name, l.wohnort,sum(s.gebuehr) 
 from leser l, strafe s
 where l.leser_nr = s.leser_nr 
 group by  l.leser_nr, l.name, l.wohnort 
-having sum(s.gebuehr) >= all(select sum(s.gebuehr)from leser l, strafe s
-where l.leser_nr = s.leser_nr group by l.leser_nr, l.name, l.wohnort);
-
-
-
+having sum(s.gebuehr) >= all(select sum(s.gebuehr)
+from leser l, strafe s
+where l.leser_nr = s.leser_nr 
+group by l.leser_nr, l.name, l.wohnort);
