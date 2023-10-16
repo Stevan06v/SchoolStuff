@@ -125,7 +125,7 @@ Zwischen Geburt und Tod ist man Rechtsfähig -> man kann Rechte und Pflichten er
 === Handlungsfähigkeit
 Wer darf alles tun und lassen 
 
-* Man unterscheidet beim alter (ausnahmen bilden die Juden -> ab dem ersten Atemzug strafrechtlich verfolgbar)
+* Man unterscheidet beim alter 
 
 Jeder darf sich alles um so viel Sachen kaufen, wie er will, solange die Eltern das erlauben.
 
@@ -175,7 +175,7 @@ Man braucht Erwachsenenschutz wenn man nicht mehr Klarkommt: Behindert, Dement, 
 Gilt ewig -> Man muss sich bewusst sein während man das schreiben ausfüllt
 
 * Vorsorgevollmacht 
-* Gewählter Verträter
-* Erwachsenenschutzvereine stellt Leute
-* Lenht die betroffene Person -> kommt die Familie zum Einsatz (entfernt auch)
-* Gerichtliche Vertrer
+** Gewählter Verträter
+** Erwachsenenschutzvereine stellt Leute
+** Lenht die betroffene Person -> kommt die Familie zum Einsatz (entfernt auch)
+** Gerichtliche Vertrer

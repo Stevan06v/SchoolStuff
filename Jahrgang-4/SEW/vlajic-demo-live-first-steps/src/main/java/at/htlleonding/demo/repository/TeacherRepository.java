@@ -14,7 +14,7 @@ public class TeacherRepository {
 
     private Map<Integer, Teacher> teachers;
 
-    private TeacherRepository() {
+    public TeacherRepository() {
         teachers = new HashMap<>();
     }
 
@@ -25,6 +25,7 @@ public class TeacherRepository {
         }
         return true;
     }
+
     public boolean add(Teacher teacher){
         this.teachers.put(teacher.getId(), teacher);
         if(this.teachers.containsKey(teacher)){
@@ -32,9 +33,11 @@ public class TeacherRepository {
         }
         return false;
     }
+
     public LinkedList<Teacher> getTeachers(){
         return new LinkedList<>(this.teachers.values());
     }
+
     public int getTeacherCount(){
         return this.teachers.size();
     }

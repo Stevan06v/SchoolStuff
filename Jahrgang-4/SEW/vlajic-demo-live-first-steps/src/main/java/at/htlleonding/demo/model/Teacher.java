@@ -1,5 +1,7 @@
 package at.htlleonding.demo.model;
 
+import java.util.LinkedList;
+
 public class Teacher {
     private static final int MIN_AGE = 18;
     private static final int MAX_AGE = 65;
@@ -12,6 +14,7 @@ public class Teacher {
     private String lastname;
     private int id;
     private static int counter = 1;
+    private LinkedList classes = new LinkedList<Class>();
 
     public Teacher(int age, String gender, double rating, String firstname, String lastname) {
         this.setAge(age);
