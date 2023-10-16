@@ -284,6 +284,7 @@ join ZEUGNIS z on (z.LVANR = l.LVANR)
 right join PROFESSOR p on(z.PROFNR = p.PROFNR)
 group by p.name
 order by  avg(z.note) asc;
+
 ----
 
 ### f) Personenliste
