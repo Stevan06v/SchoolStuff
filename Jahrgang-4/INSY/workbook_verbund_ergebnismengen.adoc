@@ -316,6 +316,9 @@ select name, 'P', PROFNR from PROFESSOR
 union
 select name, 'S', MATRNR from STUDENT;
 
+
+
+
 ----
 
 
