@@ -199,11 +199,55 @@ Wie schließt man Verträge:
 
 * Mündlich 
 * Schriftlich
-* Faktisch durch tun
+* Faktisch durch tun -> Kauf beim Automaten
 
 Wann sind Veträge Gültig
 
 * Jeder kann Veträge schließen, der Geschäftsfähig ist ( > 18)
 * Willenserklärungen -> Ohne Zwang -> Ohne List -> ohne Irrtum
 * Muss Möglich sein nicht unmöglich
+* Es muss erlaubt sein (Gesetzlich erlaubt)
 * Gute Sitten -> Jemandem mit Lernschwäche etwas andrehen 
+
+== 2023-23-10
+
+BS (258-264)
+
+=== Arten von Verträgen
+* Leihvertrag: Kostet nichts -> kein Geld 
+* Darhlehnsvertrag: Man bekommt etwas selber Art und Güte zurück
+* Kreditvertrag: Mit Zinsen 
+* Leasingvertrag: ist ein Mischvertrag -> Man kann bestehende Verträge mischen 
+** Kaufvertrag
+** Mietvertrag
+
+=== Vertragsabsicherungen
+* Beispiel: Ratenzahlung -> kein Geld mehr -> Man sichert sich den Eigentumsvorbehalt ab 
+* Eigentumsvorbehalt: Die Ware gehört so lange mir bis die Ware abbezahlt ist
+* Pfand kann auch genommen werden 
+* Bürgen -> Ein dritter verpflichtet sich wenn der Schuldner den Vertrag nicht zahlen kann
+* Bankgarantie -> Geldbetrag wird bei der Bank hinterlegt -> welches bezogen werden kann 
+* Pönale -> Wenn man etwas nicht schafft *rechtzeitig* zu liefern zahlt man -> kann einem ein pauschalierter Schadenersatz bekommen
+
+=== Formvorschriften
+* Veträge zunächst sind Formlos -> außer folgende Beispiele:
+** Testament
+** ins Grundbuch -> Geschenk kaufen -> Notar benötigt 
+** ins Firmenbuch -> Notar
+** Lehrvertrag -> Unterschrift beider Eltern
+
+=== Vertragserfüllung
+
+
+=== Leistungsstörunegn
+* Beispiel: Handy bei MediaMarkt kaufen -> geht nach 2 Tagen nicht mehr
+** Gratanie -> Zeit vom Hersteller frei wählbar
+** Gewährleistung (Gerät darf keinen Schaden von Anfang an haben)-> 2-Jahre  Staatlich vorgegeben -> Gesetzlich verpflichtend
+*** Bis zu dem ertsen Jahr muss man nichts beweise
+*** Ab dem 2ten Jahr muss bewiesen werden, ob etwas kaputt war
+
+* Gewährleistung besteht aus: 
+** Reperatur oder
+** Austauschen
+*** wenn beides nicht mehr möglich ist dann 
+** Geldbetrag zurück   

@@ -3,6 +3,9 @@ package at.htlleonding.demo.repository;
 import at.htlleonding.demo.model.Gender;
 import at.htlleonding.demo.model.Teacher;
 import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -12,11 +15,11 @@ import java.util.Map;
 @ApplicationScoped
 public class TeacherRepository {
 
-    private Map<Integer, Teacher> teachers;
+   @Inject
+   private EntityManager entityManager;
 
-    public TeacherRepository() {
-        teachers = new HashMap<>();
-    }
+
+    public TeacherRepository() {}
 
     public boolean delete(int id){
         this.teachers.remove(id);
@@ -26,16 +29,16 @@ public class TeacherRepository {
         return true;
     }
 
+    @Transactional
     public boolean add(Teacher teacher){
-        this.teachers.put(teacher.getId(), teacher);
-        if(this.teachers.containsKey(teacher)){
-            return true;
+        if(this.getTeachers(footballer.getJerseyNumber()) != null) {
+            throw new IllegalArgumentException(String.format("Footballer with jersey number %d already exists!", footballer.getJerseyNumber()));
         }
-        return false;
+        this.entityManager.persist(footballer);
     }
 
-    public LinkedList<Teacher> getTeachers(){
-        return new LinkedList<>(this.teachers.values());
+    public List<Teacher> getTeachers(){
+        return this.entityManager.createQuery("select f from Teacher f").getResultList();
     }
 
     public int getTeacherCount(){
