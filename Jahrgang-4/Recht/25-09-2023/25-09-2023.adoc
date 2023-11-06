@@ -251,3 +251,62 @@ BS (258-264)
 ** Austauschen
 *** wenn beides nicht mehr möglich ist dann 
 ** Geldbetrag zurück   
+
+== 2023-06-11
+
+=== Schadensersatzrecht
+
+* 4 Faktoren(Schadensrecht): 
+** Verschulden
+** Kausalität 
+** Schaden 
+** Rechtswidrig
+
+Fällt ein Faktor fällt der Schaden weg 
+
+=== Verschulden
+* leichte Fahrlässigkeit -> Laptop zufällig herunter geschmissen 
+* grobe Fahrlässigkeit -> passiert nicht jedem ->
+* vorsätzlich gehandelt: absichtlich was tun oder in Kauf nehmen 
+
+=== Ersatz -> Wann gilt der Schaden
+* leichte Fahrlässigkeit:
+** Man muss nichts oder einen Teil
+* grobe Fahrlässigkeit:
+** Man muss alles ersetzen 
+* vorsätzlich gehandelt: 
+** Man muss den Laptop und die emotionale Schiene Zahlen (Laptop vom Großvater -> 5000€ vom gefühl her)
+
+=== Schadenersatz Schäden
+* Sachschaden 
+* Körperschaden
+* Vermögensschaden
+* Trauerschaden -> Angehörige
+* Emotionaler Schaden
+
+=== Kausalität
+Mein Schadensereignis führt direkt zum Schaden 
+
+* Die Kausalkette darf nicht zu lang sein 
+
+* Beispiel: 
+** Ein späterer Schaden durch zugefügten Schaden führt zum Schaden
+
+=== Rechtswidrig 
+* Deliktischer Schaden
+* Vertraglicher Schaden 
+
+=== Mitverschulden 
+* Wenn man eine Teilschuld muss man halbieren oder maximal gedrittelt
+
+=== Schadensminderungspflicht 
+* Man hat gelegenheit der Unfall zu verhindern -> Man kann den entstandenen Schaden wieder mindern
+
+Schadenersatz ist in Österreich genau 3 Jahre geltend.
+
+---
+
+* Wie wird der Schadensersatz berechnet
+** Zuerst geht man zum Arzt -> nachweisen vom Schaden
+** Wie Lange dauert der Krankenstand 
+** Schadennersatz wird errechnet
