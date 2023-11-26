@@ -281,6 +281,7 @@ Fällt ein Faktor fällt der Schaden weg
 * Sachschaden 
 * Körperschaden
 * Vermögensschaden
+* Schockschaden
 * Trauerschaden -> Angehörige
 * Emotionaler Schaden
 
@@ -310,3 +311,45 @@ Schadenersatz ist in Österreich genau 3 Jahre geltend.
 ** Zuerst geht man zum Arzt -> nachweisen vom Schaden
 ** Wie Lange dauert der Krankenstand 
 ** Schadennersatz wird errechnet
+
+== 2023-20-11
+=== Buchseite 271)
+* Aufischtspflichverletzungen: Eltern haften für ihre Kinder wenn sie Ihre Schuldhaft verletzten
+** Nur Schuld wenn die Situation gefährlich ist
+** Kind braucht Betreuung bekommt keine 
+
+=== Rechtfertigung für Verschuldung
+* Notstandssitutaionen
+** Kind im brennenden Auto gefangen 
+** Selbstverteidigung
+* Geisteskranke und unmündige Haften nicht -> Man versteht nicht was man macht
+* Wenn der Geisteskranke Millionär ist zahlt der beeinträchtigte 
+
+=== Gehilfenhaftung 
+* Als Unternehmerin hat man als IT Unternehmerin einen Außeneinsatz -> bediensteter fährt zum Auftrag -> ihm passiert ein schaden -> der dort war -> ist ein Verfüllungsgehilfe 
+* Erfüllungsgehilfe schädigt andere Vermögenswerte ohne zu arbeiten -> Erfüllungsgehilfe ist schulig -> Unternehmer nicht 
+
+* Besorgungsgehilfenhaftung:
+** Untüchtigkeit vom Mitarbeiter ist der einzige weg 
+** Erfüllungsgehilfenhaftung
+** Als Unternehmerin hat man als IT Unternehmerin einen Außeneinsatz -> bediensteter fährt zum Auftrag -> ihm passiert ein schaden -> der dort war -> ist ein Verfüllungsgehilfe 
+
+* Erfüllungsgehilfe schädigt andere Vermögenswerte ohne zu arbeiten -> Erfüllungsgehilfe ist schulig -> Unternehmer nicht 
+
+
+* Man möchte trotzdem zu Unternehmer -> Unternehmer zahlt nur dann wenn man als Unternehmer weiß, dass der Erfüllungsgehilfe nicht tüchtig ist. 
+
+== Haftung
+
+* Wohnungseigentümer
+** Schmeißt Weihnachtsbaum aus dem Fenster -> Wohnungsinhaber haftet
+* Bauwerksinhaber
+** Solbald man ein Gebäude hat haftet man für alles
+
+=== Tierhaftung
+* Hundebsitzer ist für die Tierverwahrung verantwortlich 
+** Ohne Leine -> Schuldig
+** Kind geht mit Hund spazieren
+
+=== Gastwirtenhaftung
+* Übernachtet man beim Gastwirten und dort dar nichts abhanden kommen. ab 1.100€
