@@ -314,6 +314,8 @@ Schadenersatz ist in Österreich genau 3 Jahre geltend.
 
 == 2023-20-11
 === Buchseite 271)
+* https://www.wko.at/gewerberecht/gewaehrleistung-garantie-schadenersatz#heading_Begriffsabgrenzung[ALLES ZUM THEMA]
+
 * Aufischtspflichverletzungen: Eltern haften für ihre Kinder wenn sie Ihre Schuldhaft verletzten
 ** Nur Schuld wenn die Situation gefährlich ist
 ** Kind braucht Betreuung bekommt keine 
@@ -353,3 +355,7 @@ Schadenersatz ist in Österreich genau 3 Jahre geltend.
 
 === Gastwirtenhaftung
 * Übernachtet man beim Gastwirten und dort dar nichts abhanden kommen. ab 1.100€
+
+
+== 2023-27-11
+* .
