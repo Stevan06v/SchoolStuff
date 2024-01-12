@@ -1,1 +1,14 @@
-Mon Oct 23 09:47:20 GMT 2023 : Apache Derby Network Server - 10.16.1.1 - (1901046) started and ready to accept connections on port 1527
+Mon Dec 04 10:09:54 GMT 2023 : Apache Derby Network Server - 10.16.1.1 - (1901046) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Mon Dec 04 10:34:04 GMT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018c-344e-4729-0000032a3ba8 
+on database directory /data/db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55fca1b4 
+Loaded from file:/derby/lib/derby.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=19.0.1+10
+user.dir=/data
+os.name=Linux
+os.arch=amd64
+os.version=5.15.133.1-microsoft-standard-WSL2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
