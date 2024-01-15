@@ -1,0 +1,13 @@
+======================
+     18. Jänner
+======================
+
+* AUSGABEN
+* Schleifen/IFS/SWITCH 
+* FUNCTION/PROCEDURES
+* CURSORS -> MEHRERE WERTE
+** NICHT MÜHSEELIGE ELEMENTE
+* EXCEPTIONS
+* NATIVE DYNAMIC SQL 14) / DYNAMIC KOMMT NICHT
+* TRIGGER -> KOMMEN
+** TRIGGER basieren auf Auslösenden Ereignissen -> Insert geschieht -> Gehalt wird verändert -> UPDATE wird aufgerufen -> es wird immer wieder etwas erhöht -> trigger wird ausgelöst und schreibt schuldigen user in eine Tabelle. (eine art logging)
