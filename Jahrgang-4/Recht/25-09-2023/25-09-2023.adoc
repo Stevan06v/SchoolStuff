@@ -357,5 +357,95 @@ Schadenersatz ist in Österreich genau 3 Jahre geltend.
 * Übernachtet man beim Gastwirten und dort dar nichts abhanden kommen. ab 1.100€
 
 
-== 2023-27-11
-* .
+== 15.01.2024
+
+=== Komnsumententschutz
+* KSCHG -> Konsumentenschutzgesetz
+* ECG -> E-Commerece
+* FAGG -> Fernabsatz und Auswertsgeschäftegesetz
+
+
+=== KSCHG
+Ist ein zwingendes Recht
+
+* Für Haustürgeschäfte -> (Jemand klopft an die Haustür -> Staubsaugerverkäufe von Tür zu Tür) entwickelt. 
+** bis 1975 -> Frau hat nichts zu sagen gehabt -> am Herd gebunden -> Schlüsselgewalt -> Männer zahlen alles
+
+* (Rücktrittsrecht) Rücktritt möglich -> also völlig formlos -> Ich will den Staubsauger nicht -> kann jederzeit zurückgegeben werden
+* (Recht des Kleingedruckten) Mit dem Konsumentenschutz wehrt man sich gegen dieses Kleingedruckte
+
+* Schriftlicher Kostenvoranschlag kann wegen dem KSCHG angerechnet werden -> Konsument sieht ihn und kann sich entscheiden -> ja nein
+** Verbindlich:
+*** Wenn man nicht unverbindlich dazuschreibt -> ist dieser verbindlich
+*** Ist ein muss
+** Unverbindlich:
+*** Wenn eine Reperatur mehr kostet als ausgemacht darf diese maximal um 15% teurer werden -> muss aber dem Konsumenten mitgeteilt werden 
+
+
+
+
+=== ECG
+
+=== FAGG
+
+* Rücktrittsrecht 
+** Wer ist für die Kosten für die Rücksendung verantwortlich? -> Der Käufer ist für die Versandkosten der Rücksendung verantwortlich
+** Onlinehandel -> man kann ein Produkt innerhalb 14 Tage online zurückgeben (ohne wenn und aber)
+** Geschäft -> man kauft ein Produkt in ein Geschäft -> man kann dieses nicht sofort wieder zurückgeben -> Geschäfte können aber auch Rückgabefristen definieren
+
+
+Steht im Fagg -> Fernabsatzgesetz
+
+Wenn man die Belehrung über den zurücktritt nicht angibt -> Darf der Kunde 1 Jahr lang zurücktreten.
+
+*Fall:* Auswertskundendienst -> Webseite wird gebaut -> Man fährt zum Kunden -> Ist hochzufrieden -> Nachber kauft sich gleich auch den service -> Rücktrittsrecht wird nicht vorgelegt -> Kunde kommt nach einem Jahr drauf: Ich brauche das Produkt nicht -> Kunde darf zurücktreten und muss 1 Jahr nichts blechen
+
+Sonderanfertigungen -> Rücktrittsrecht fällt weg -> ohne Widerrufsbestätigung -> muss man dafür nichts bezahlen
+
+
+
+== E-Commerce Gesetz
+
+Gesetz für den Onlinehandel
+
+* E-Commerce regelt die Unternehmerseite um einen soliden Onlinehandel zu garantieren -> Europäische Richtlinie für alle
+* Gewerbeberechtigung reich um eine Webseite zu erstellen
+* Man will auf der Webseite Baustoffe vertreiben:
+** Preisgestaltung muss sichtlich gestaltet werden
+*** Deutlichmachung des Preises -> Bevor man auf den bestellen knopf muss ersichtlich sein wie viel der Gesamtbetrag beträgt
+** Impressum muss ersichtlich sein -> Wenn nicht verfügbar -> Man muss bis zu 3000 zahlen
+
+
+Beispiele: 
+
+* Anton bestellt sich im Internet einen Fernseher -> liest sich die AGB's durch -> will sie runterladen -> PDF ist gesperrt
+
+** Unternehmen muss die AGBS zur verfügungstellen -> herunterladbar und ausdruckbar
+
+
+
+* Alfred betreibt eine Suchmaschine -> Kinder geben Nationalsozialistische Begriffe ein -> kommen auf so eine seite -> Eltern wollen jemanden zur rechenschaft ziehen 
+
+** Große Suchmac
+
+** Alfred ist nicht zu belangen wenn:
+
+*** die Übermittlung der abgefragten Informationen nicht veranlasst,
+*** den Empfänger der abgefragten Informationen nicht auswählt und
+*** die abgefragten Informationen weder auswählt noch verändert.
+
+
+* Xaver kommt auf die Seite von Ludwig -> Ludwig beitet freeware und software -> Xaver tschuat sich die Ware -> stellt diese neu zur verfügung -> Ludwig hat aber mittlerweile auf Raubkopien umgestellt. Jemand will Xaver verurteilen, weil dieser den Link zur verfügung gestellt hat
+
+** Xaver ist nicht zu belangen:
+*** Wenn er nicht weiß dass er illegale Inhalte verkauft 
+** jedoch haftet er weil es nicht seine inhalte sind
+
+
+* Siggi macht eine Entdeckung unter einer webseite -> man erwirbt dinge und bekommt sie zugeschickt -> erwirbt eine Stereoanlage. Analge kommt an und kommt kleiner als gedacht an. Sigis Anlage ist zu klein.
+
+** Sigi: widerufsformular fehlt -> 1 Jahr + 14 tage
+
+
+
+Katariner hat bei einem Gebrauchtwagenhändler ein Auto gekauft -> Macht einen selbstverschuldeten Unfall -> Will wissen wie viel die herrichtung kostet -> Kriegt eine Rechnung ohne Umsatzsteuer -> Bei der abholung kostet es 750 -> Sie hat es nicht gewusst -> Ihr wurde nichts mitgeteil -> verbindlich für den produzenten
