@@ -426,7 +426,7 @@ Beispiele:
 
 * Alfred betreibt eine Suchmaschine -> Kinder geben Nationalsozialistische Begriffe ein -> kommen auf so eine seite -> Eltern wollen jemanden zur rechenschaft ziehen 
 
-** Große Suchmac
+** Große Suchmacschine
 
 ** Alfred ist nicht zu belangen wenn:
 
@@ -449,3 +449,66 @@ Beispiele:
 
 
 Katariner hat bei einem Gebrauchtwagenhändler ein Auto gekauft -> Macht einen selbstverschuldeten Unfall -> Will wissen wie viel die herrichtung kostet -> Kriegt eine Rechnung ohne Umsatzsteuer -> Bei der abholung kostet es 750 -> Sie hat es nicht gewusst -> Ihr wurde nichts mitgeteil -> verbindlich für den produzenten
+
+
+== Partnerregelung
+
+Solbald man im Internet gibt man diverses ein -> letzter punkt -> *Zahlungspflichtig*(muss klar sein dass es etwas kostet) bestellen muss dabei stehen
+
+ID Austria
+
+* Digitale Identifikation im Internet -> Alles online gespeichert -> Führerschein usw
+
+
+== Zivilverfahren 
+
+Gerichtliche hilfe wenn ich "so" nicht weiterkomme.
+
+* Mahnklage -> Reine Geldforderung -> Kollege schuldet mir Geld wegen einer Jause -> Formular
+** Bedingter Zahlungsbefehl wird dem gegenüber gegeben.
+** 3 Möglichkeiten: 
+*** Anderer macht nichts dagegen ->  es ist rechtskräftig -> wird exekutiert
+*** Anderer wehrt sich dagegen -> Einspruch
+**** Es geht zurück zum Gericht und es gibt ein Verfahren
+*** Zahlt
+
+** Wohin gehts bei welcher Summe
+*** Landesgericht -> > 15000€
+*** Bezirksgericht < 15000€
+
+** Der Anwalt kommt ins Spiel wenn der Wert über >5000€ liegt
+*** Wenn man ohne Anwalt kommt wird man ignoriert
+*** Kann man sich den Anwalt nicht leisten wird ein Verfahrensantrag gestellt
+
+** Am Ende zahlt der, der den Prozess verliert.
+
+** Klagebeantwortung kann geschrieben werten -> 
+** Gericht schreibt eine erste Tagsatzung aus -> Alle werden eingeladen(Kläger, Beklagte, Rechtsvertreter) -> Beweise werden vorglegt, Beweisverhandlung
+
+
+** Beweismittel:
+*** Zeugen 
+*** Meine Aussage
+*** Sachmittel
+*** Lokalaugenschein -> Man trifft sich Vor ort 
+*** Audiobeweis/Videobeweis
+
+** Tagsatzung -> 1) Alle Zeugen müssen kommen, 1) Aussagen, 1) Die Wahrheit sagen
+
+** Schluss des Verfahrens
+*** Alle stehen im Respekt vom Urteil auf
+*** Begründung erfolgt
+
+* Manuduktionsverfahren -> Richter führt einen durchs verfahren
+
+
+* Wer ist alles im Gerichtssaal:
+** Kläger
+** Beklagte
+** Richter/Richterin
+** Publikum
+** Dollmetscher
+
+* In der Zweiten Instanz wird überprüft obs alles rechtens war
+
+(BS: 333)

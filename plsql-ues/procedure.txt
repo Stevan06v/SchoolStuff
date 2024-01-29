@@ -1,5 +1,7 @@
-CREATE OR REPLACE PROCEDURE get_emp_rec (emp_number IN EMPLOYEE.EMPLOYEE_ID%TYPE,
-emp_ret OUT EMPLOYEE%ROWTYPE) AS
+CREATE OR REPLACE PROCEDURE get_emp_rec (
+emp_number IN EMPLOYEE.EMPLOYEE_ID%TYPE,
+emp_ret OUT EMPLOYEE%ROWTYPE
+) AS
 BEGIN
 SELECT employee_id, first_name, last_name, email, phone_number, hire_date, job_id, salary, commission_pct, manager_id, department_id
 INTO emp_ret

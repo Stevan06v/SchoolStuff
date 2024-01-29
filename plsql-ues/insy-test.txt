@@ -9,5 +9,5 @@
 ** NICHT MÜHSEELIGE ELEMENTE
 * EXCEPTIONS
 * NATIVE DYNAMIC SQL 14) / DYNAMIC KOMMT NICHT
-* TRIGGER -> KOMMEN
+* TRIGGER -> KOMMEN++
 ** TRIGGER basieren auf Auslösenden Ereignissen -> Insert geschieht -> Gehalt wird verändert -> UPDATE wird aufgerufen -> es wird immer wieder etwas erhöht -> trigger wird ausgelöst und schreibt schuldigen user in eine Tabelle. (eine art logging)
