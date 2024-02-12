@@ -499,7 +499,7 @@ Gerichtliche hilfe wenn ich "so" nicht weiterkomme.
 *** Alle stehen im Respekt vom Urteil auf
 *** Begründung erfolgt
 
-* Manuduktionsverfahren -> Richter führt einen durchs verfahren
+* Manuduktionsverfahren -> Richter führt einen durchs Verfahren
 
 
 * Wer ist alles im Gerichtssaal:
@@ -512,3 +512,96 @@ Gerichtliche hilfe wenn ich "so" nicht weiterkomme.
 * In der Zweiten Instanz wird überprüft obs alles rechtens war
 
 (BS: 333)
+
+== 29.01.2024
+
+Spitzer Vortrag -> Zivilprozess Vorlesung 
+
+* Berufung
+* Revision
+
+== 12.02.2024
+
+* Fahrnis -> Sachen, die man wegnehmen kann
+
+* Wie lange habe ich zeit die Exekution durchzuführen(wie lang is das Urteil geltend)
+** Ich stelle einen Antrag -> 30 Jahre zeit
+
+* Liegnschaftsexekution: 
+** Des Grundbuch beantragt -> Versteigerung steht bevor -> Haus wird gepfendet
+** Bezirksgericht
+
+* Wo findet man Liegenschaften zur Exekutionen -> (Webseite) -> https://edikte.justiz.gv.at/edikte/edikthome.nsf/homeSuche
+
+== Exekutionen
+
+Alle Exekutionen läufen über das Bezirksgericht 
+
+=== Fahrnisexekution
+* Exekutor klopft an die Tür -> Schlüsseldient kommt herein -> trifft überall den KuckKuck(Pfendungsmarke) drauf -> was überschüssig bleibt wird einem wieder ausgehändigt
+
+* Gegenstände mit emotionalem Wert können nicht weggenommen werden 
+* Gewerbsmässige verwertung, emotionale Gegenstände
+** Ehering
+** Laptop
+** Auto 
+** Hund
+
+=== Lohnexekution 
+* Arbeitgeber überweist das Geld direkt an den Gläubiger -> kriegt direkt Geld vom Unternehmer
+* Ein Existenzminimum muss einem bleiben (min. 1000€) -> Lohnverrechner verrechnet das 
+
+* Ist man überfordert mit den Finanzen geht man zum Schuldnerberater -> staatlichgeführter Schuldnerberater -> erklärt wie man die Situation am besten 
+* Private Schuldnerberater kosten etwas -> wie kommt man am besten aus seinen Schulden
+
+=== Liegenschaftsexekution
+* .. 
+
+
+=== Exekutionspaket
+* Egal was man nimmt -> Lohn oder Fahrnis -> Man will einfach geld 
+
+=== Erweitertes Exekutionspaket
+* Wenn Zahlungsunfähigkeit besteht -> Insolvenzwird berücksichtigt
+* über 10k 
+* Kriegt der erste der die Schulden angesetzt hat -> Ranghöhste -> Bank kriegt das meiste als erstes
+
+
+== Fall 1
+
+Frau Sorgsam hat a auto -> Herr rasinger hat das auto beschädigt, sagt aber dass es nicht Schuld ist -> 6000€ muss gezahlt werden 
+
+* Zivilgericht: Person vs Person 
+* Bezirksgericht -> weil die Summe < 15 000€
+* Ortsgericht -> Ort der Schadenszufügung (wo ist der Schaden entstanden)
+* Anwalt -> weil über 5000€
+* Mahnklage -> Gerichtsforderung 
+* Fr. kann sich keinen leisten -> kriegt einen Verfahrensvertreter
+* Einspruchsverfahren -> Verfahren geht zurück zum Bezirksgericht
+* Rasinger muss die Hälfte zahlen -> Beide müssen die Hälfte Zahlen
+* Instanzen
+** Landesgericht 1ste Instanz
+** Oberlandesgericht 2te Instanz 
+** Oberster Gerichtshof 3te Instanz
+
+== Fall 2 
+Herr Pleitinger hat viel 28k überzoegn
+
+* Muss zum Landesgericht > 15 000€
+* bekommt bedingten Zahlungsbefehl 
+* Erhebt keinen einspruch gegen Zahlungsbefehl: 
+** Wird rechtskräftig 
+* Vor der ersten Verhandlung einigt sich der Pleitinger zur Verfahrenseinstellung
+** Das Verfahren ruht 
+* Einigung: Es wird nicht gezahlt
+** Bank wird auf Exekutionen setzen 
+** Hat der Mann einen Porsche wird dieser gepfendet und man zahlt nur die Exekution 
+
+
+== Fall 3
+Man zahlt Auto und bekommt es nicht 
+* Herausgabeklage -> Exekutor holt sich das Auto
+
+
+== Gewerberechte kann man auch exekutieren 
+* Verschuldensquote ->
