@@ -597,11 +597,256 @@ Herr Pleitinger hat viel 28k überzoegn
 ** Bank wird auf Exekutionen setzen 
 ** Hat der Mann einen Porsche wird dieser gepfendet und man zahlt nur die Exekution 
 
-
 == Fall 3
 Man zahlt Auto und bekommt es nicht 
 * Herausgabeklage -> Exekutor holt sich das Auto
 
+== 26.02.2024
 
-== Gewerberechte kann man auch exekutieren 
-* Verschuldensquote ->
+* Firma gründen
+** Geschäftsidee
+
+
+=== Rechtsformen
+
+e.U. -> Engetragenes Unternehmensgeb
+
+(nur die GmbH muss Bilanzieren außer man macht 1 x 1 mille oder 2 mal -> 700k in zwei Jahren -> Billanzplicht)
+
+(alle Genossenschaften sind Billanzpflichtig)
+
+* Einzelunternehmen 
+** Heißt wie ich selbst: "Stevan Vlajic" 
+** Man haftet mit eigenem Vermögen 
+
+* Einzelunternehmen + Firmenbuch
+** e.U nach dem Namen und eigener Name
+** 10K Kapital -> 5K am Konto 
+
+* GesBR
+** Darf nicht ins Firmenbuch
+** Gesselschaft bürgerlichen Rechts 
+** 2 Menschen haben ein Hausgebaut -> Eheschließung
+** Baufirmen die gemeinsam unter einer gemeinsamer Steuernummer ein Projekt bauen 
+** Danach löst es sich wieder auf
+
+* Gründungpriviligierte GmBH  -> FlexKap
+** Startkpital 5k in Bar -> 10k
+** Man hat 10 Jahre Zeit die 35k einzuzahlen
+*** Nach Auflösung ist das Geld an die Gesellschafter zu verteilen
+*** Man sollte sich darüber Gedanken machen
+** Davor hat es eine Gründungpriviligierte GmBH gegeben
+
+* GMBH
+** 35k Gründungskosten -> Stammkapital -> 50% musrs in Bar vorliegen
+** Man haftet nicht selbst -> Firma haftet
+** Man kann also nur die Stammeinlage verlieren
+** Muss im Firmenbuch stehen 
+** Richtungsvertrag ist nötig
+** Ab einem hohen 5 stelligen Jahresberreich lohnt sich die GmbH
+** Haftung wird beschränkt 
+
+* Europäische Aktiengesellschaft
+** Vorstand steht dieser vor
+** Man braucht ein Kontrollorgan
+*** Aufischtsrat beaufsichtigt den Vorstand
+** Braucht 120k -> Grundkapital
+** Man ist in mehreren EU Staaten verteilt
+
+* Stille Gesellschaft
+** Mit Beteiligung
+
+* OG
+** Nur einer muss Gewerbeberechtigt sein
+** Arbeitsteilung sollte geregelt werden
+** 2 oder mehrere Einzelunternehmen sind zusammengeschlossen -> Gleichberechtite Partner
+** Zwingender Firmenbuchseintrag 
+** Kann wie die Gesellschafter heißen aber auch eigener Name möglich
+** Man haftet aber jedoch mit seinem Privatvermögen -> auch für den anderen
+** Formloser Vertrag reicht
+
+* KG 
+** Firmenbucheintrag möglich
+** Bsp: Zusammenschluss von bspw: GmBH, SE gehört dazu 
+*** Billanz muss geführt werden
+** 2 oder mehr schließen sich zusammen
+** Komplementär führt die Gesellschaftsform -> Gesellschafter -> Unternehmensleiter 
+** Kommanditist schießt Geld vor -> geht alles schief verliert der Kommandadist sein Investment -> Komplementär haftet mit Privatvermögen -> Haftungbeschränkt mit der einlage
+** Fördern vom Unternehmen
+** Formloser Vertrag reicht
+
+
+=== Namen 
+* 2 Betriebe mit dem selben Namen im gleichen Ort nicht erlaubt
+* Nicht Irreführend
+* Keine Konflikte mit bestehden Namen
+
+
+Jede rechtsform kann mitarbeiter einstellen:
+
+* Alle vorschriften müssen eingehalten werden 
+* Mitarbeiter müssen rechtens behandelt werden
+
+
+=== Fälle
+
+* solaidarisch -> Alle für einen -> Einer für alle
+* Einzelunternehmer bezahlt -> Einkommenssteuer
+
+
+=== Zusammenfassung
+* https://www.trend.at/recht/firmengruendung-rechtsformen
+
+== 04.03.2024
+
+=== FlexKapG
+* https://www.wko.at/wirtschaftsrecht/flexible-kapitalgesellschaft
+* FlexKapG darf jetzt ab 10.000€ gegründet werden -> neu 
+* Für Start-Ups sehr interessant
+
+
+=== Steuern
+* Unternehmer zahlen genau so viele Steuern wie ANgestellte
+** Lohnsteuer
+** Einkommensteuer
+
+* Umsatzsteuer
+** Vom Umsatz berechnet -> Steuerbelastung vom Endverbraucher
+** Ich verkaufe 100€ -> man schlägt 20 € drauf -> Kunde bezahlt 120€ -> 20% geht ans Finanzamt
+
+** Man darf sich den Teil als Vorsteuer zurückholen -> wenn man als Unternehmer Umsatzsteuer zahlt -> Wareneinkauf 
+
+* Vorsteuer
+** Unternehmer kann sich Umsatzsteuer zurückholen
+** Nur für Unternehmer
+** Man Einkauf fürs Unternehmen wird günstiger 
+** Bei einem Umsatz von 100.000€ einmal im Quartal 
+
+* Kleinunternehmerregelung
+** Für Unternehmen mit geringem Jahresumsatz
+** Man kann auf die Umsatzsteuer verzichten
+** Zu Kennzeichnen
+** Keine Vorsteur darf zurückgeholt werden
+** Dienstleistungen für Provatkunden
+
+* Einkommenssteuer 
+** Gesamtumsatz vom Unternehmen
+** 0-11k -> keine steuern 
+** 11-18k -> 25%
+*** Erste 11k immer mit 0% besteuert
+*** 14k-11k -> 3k -> ....
+** >18k -> 32.5%
+** > 1Mille -> 55%
+
+* Berechnungsmethoden
+** Einnahmen/ausgaberechnung
+*** Taschengeld -> Einnahme, Was bezahle ich ? -> Zusammenrechnen -> Gewinn/Verlust 
+
+* Körperschaftssteuer 
+** Natürliche Person zahlt eine Einkommenssteur
+** Juristische Person zahlt Körperschaftssteuer
+** 23% Köst - GmBH, Se...
+** 27.5% KeST
+
+== 11.03.2024
+
+* Bei der Namensgebung kann etwas schief gehen --> Mitsubishi --> Heißt auf spanisch Wichser
+
+* Probleme bei der Namensgebung:
+** Unterscheidungsträchtig
+** keine Verwechslungsefahr
+** Nicht Irreführend
+** Nix gleiches -> selber Ort u. Gemeinde
+
+* Hat man einen Namne kommt man ins Firmebuch
+** Wird vom Firmenbuch geführt
+
+* https://teams.microsoft.com/_?culture=de-at&country=at#/pdf/viewer/teamsSdk/https:~2F~2Fhtblaleonding.sharepoint.com~2Fsites~2F2324_4AHITM_OWRRE_MOSE~2FKursmaterialien~2FSchaubild%20%C3%BCber%20Unternehmen%20und%20deren%20Rechtsformen.pdf?threadId=19:FEe2H_3DqWaQx8RSYjiX4SitextUt5Zl-UcNkrOCwCc1@thread.tacv2&baseUrl=https:~2F~2Fhtblaleonding.sharepoint.com~2Fsites~2F2324_4AHITM_OWRRE_MOSE&fileId=9a9744d2-2b07-463f-b580-bad44fdd82a7&ctx=openFilePreview&viewerAction=view[fjkdsfh]
+
+== 18.03.2024
+
+* Wer steht der Atkiengesellschaft vor?
+** Der Vorstand 
+** Komlementör haftet
+** Grundkapital: 70k 
+** Man braucht einen Beaufsichtiger 
+*** Aufischtsrat
+
+
+* Wer steht der GmBH vor?
+** Geschäftsführung
+
+* GmBH gesetze für die Gesetzführung
+** Video von der Frau. Mutschke
+
+** Größte Irrtümer der Geschäftsführerhaftung
+*** 1) Das G in GmBh steht für die Gesellschaft mit beschränkter Haftung und nicht Geschäftsführer mit beschränkter Haftung -> den Geschäftsführer kann eine Privatinsolvenz treffen (Man kann also als Geschäftführer selbst haften)
+*** 2) Man hat keine Haftung zu fürchten wenn man Geschäftsführer und Gesellschafter ist -> Bei Insolvenz hat der Insolvenzberater die Hosen an(Gesellschafter entscheiden nicht über die Haftungspflicht)
+*** 3) Erwartungen an der Fürhrung einer GmBH -> der Geschäftsführer hat stets zu gunsten der GmBh zu handeln 
+*** 4) Geschäftsführer haftet für eigene Fehler und von Geschäftsführerkollegen. (Guten Geschäftsführer suchen)
+*** 5) Die Haftungsgefahr über externen -> Zahlt man zuspät -> Steuerpflichten blecht der Geschäftsführer persöhnlich
+
+** Tipp:
+*** Handeln stets gut dokumentieren
+
+
+* Was muss man können
+** Um was geht es bei dem Thema -> IT-Unternehmen
+** rechtliche Hintergrundinformationen kennen
+** Wirtschaftliche Kenntnisse (Bilanzen lesen) 
+
+* https://htblaleonding.sharepoint.com/:b:/r/sites/2324_4AHITM_OWRRE_MOSE/Kursmaterialien/Gesch%C3%A4ftsf%C3%BChrer-Haftung.pdf?csf=1&web=1&e=mMqHiD
+
+
+== 08.04.2024
+* Wann brauche ich eine Gewerbeberechtigung:
+** regelmäßige
+** selbstädnige Arbeiten
+
+* Regelmentierte Gewerbe:
+** 2 Arten:
+*** Freies 
+**** Manmuss nichts nachweisen
+*** Regeemntiertes:
+**** Beweis des Könnens muss erbracht werden
+*** Man kann Softigiter Beginn
+*** Zuverlässigkeitsprüfung
+
+* 4 Voraussetzungen:
+** Muss erlaubt sein
+** Regelmäßige Abwicklung 
+** Muss Gewinneinbringend sein
+** Auf eigene rechnung und auf eigene Gefahr
+
+* Persönliche Voraussetzungen:
+** Volljährigkeit
+** Bürger der EU und Starfausschließungsgründe werde überprüft (Haftstarfen etc...)
+** *Keine Verurteilung*
+
+
+* beispiele für reglementierte gewerbe
+** Unternehmensberatung einschließlich der Unternehmensorganisation 
+** Gewerbliche Vermögensberatung 
+** Versicherungsvermittlung (Versicherungsagent, Versicherungsmakler und Beratung in Versicherungsangelegenheiten) 
+** Wertpapiervermittler 
+** Vulkaniseur
+
+* Freie gewerbe:
+** Betrieb einer Tankstelle.
+** Entrümpelung (Räumung durch Entfernung wertlosen Gutes)
+** Erzeugung von Baumaterialien.
+** Fahrradtechnik.
+** Friedhofsgärtnerei.
+
+
+== Betriebsanlagen
+
+Die Betriebsanlage muss genehmigt werdem um irgendwo etwas hinzustellen/hinzubauen
+
+* Magistrat genehmigt diese
+* Verfahren für die genehmigung:
+** Treffen vor ort -> Lokalaugenschein
+** Rechtsmittel gegen Bescheid -> Beschwerd
+** Kommt dann in die 2te Instanz -> Landesverwaltungsgericht
+
+*BS: 122)* 
