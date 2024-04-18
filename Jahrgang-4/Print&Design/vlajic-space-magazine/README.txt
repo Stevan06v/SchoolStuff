@@ -1,0 +1,1 @@
+keine inspirationsvorlage nötig gewesen :)
