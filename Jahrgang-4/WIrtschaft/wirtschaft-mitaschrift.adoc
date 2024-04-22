@@ -36,3 +36,13 @@ image:./arbeit.png[]
 
 === GELD-WÄHRUNG
 image:./geld-waehrung.png[]
+
+
+=== KONJUNKTUR
+image:./kojunktur.png[]
+
+=== KONTRADIEFF
+image:./kontra.png[]
+
+=== Markt
+image:./markt.png[]
